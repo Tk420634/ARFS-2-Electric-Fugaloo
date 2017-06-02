@@ -23,13 +23,13 @@
 				var/mob/observer/dead/O = Player
 				if(O.started_as_observer)
 					continue // They are just a pure observer, ignore
-			// Died and were not cloned - Respawn at centcomm
-			persist_interround_data(Player, /datum/spawnpoint/tram)
+			// Died and were not cloned
+			persist_interround_data(Player, /datum/spawnpoint/cryo)
 		else
 			var/turf/playerTurf = get_turf(Player)
 			if(isAdminLevel(playerTurf.z))
-				// Evac'd - Next round they arrive on the shuttle.
-				persist_interround_data(Player, /datum/spawnpoint/tram)
+				// Evac'd
+				persist_interround_data(Player, /datum/spawnpoint/cryo)
 			else
 				// Stayed on station, go to dorms
 				persist_interround_data(Player, /datum/spawnpoint/cryo)

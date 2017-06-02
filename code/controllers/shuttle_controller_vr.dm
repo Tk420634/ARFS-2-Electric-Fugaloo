@@ -135,7 +135,9 @@ var/global/datum/shuttle_controller/shuttle_controller
 	AM.warmup_time = 8
 	shuttles["AwayMission"] = AM
 
+// TETHER SHUTTLE
 
+/*
 	// TODO - Not implemented yet on new map
 	///////////////////////////////////////////////
 	//VOREStation Add - Belter Shuttle
@@ -208,3 +210,4 @@ var/global/datum/shuttle_controller/shuttle_controller
 	AM.move_time = 60
 	AM.warmup_time = 8
 	shuttles["Land Crawler"] = AM
+*/
