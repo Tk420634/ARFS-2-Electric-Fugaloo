@@ -119,13 +119,6 @@
 	tail = "tajtail"
 	tail_animation = 'icons/mob/species/tajaran/tail.dmi'
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/claws, /datum/unarmed_attack/bite/sharp)
-	darksight = 8
-	slowdown = -0.5
-	brute_mod = 1.15
-	burn_mod =  1.15
-	flash_mod = 1.1
-	metabolic_rate = 1.1
-	gluttonous = 1
 	num_alternate_languages = 3
 	secondary_langs = list(LANGUAGE_SIIK)
 	name_language = LANGUAGE_SIIK
@@ -140,14 +133,6 @@
 	governments, something that permeates even to today's times. They prefer colder, tundra-like climates, much like their \
 	home worlds and speak a variety of languages, especially Siik and Akhani."
 
-	cold_level_1 = 200 //Default 260
-	cold_level_2 = 140 //Default 200
-	cold_level_3 = 80  //Default 120
-/* VOREStation Removal
-	heat_level_1 = 330 //Default 360
-	heat_level_2 = 380 //Default 400
-	heat_level_3 = 800 //Default 1000
-*/
 	primitive_form = "Farwa"
 
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
@@ -179,6 +164,7 @@
 	..()
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/sandal(H),slot_shoes)
 
+/*
 /datum/species/skrell
 	name = "Skrell"
 	name_plural = "Skrell"
@@ -198,10 +184,6 @@
 
 	min_age = 19
 	max_age = 130
-
-	darksight = 4
-	flash_mod = 1.2
-	chemOD_mod = 0.9
 
 	ambiguous_genders = TRUE
 
@@ -353,3 +335,4 @@
 			qdel(D)
 
 	H.visible_message("<span class='danger'>\The [H] splits apart with a wet slithering noise!</span>")
+*/
