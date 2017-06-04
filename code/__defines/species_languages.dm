@@ -14,6 +14,7 @@
 #define SPECIES_CAN_JOIN                  0x4    // Species is selectable in chargen.
 #define SPECIES_NO_FBP_CONSTRUCTION 0x8    // FBP of this species can't be made in-game.
 #define SPECIES_NO_FBP_CHARGEN      0x10    // FBP of this species can't be selected at chargen.
+#define SPECIES_PLAYER_RESTRICTED 0x20 // Only specific ckeys can play this race.
 
 // Species appearance flags
 #define HAS_SKIN_TONE     0x1    // Skin tone selectable in chargen. (0-255)

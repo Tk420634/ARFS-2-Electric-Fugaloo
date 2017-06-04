@@ -189,6 +189,28 @@
 		else if((0 < tail) && (tail <= tail_styles_list.len))
 			H.tail_style = tail_styles_list[tail_styles_list[tail]]
 
+		//Genitals Color
+		H.r_genital   = dna.GetUIValueRange(DNA_UI_GENITAL_R,    255)
+		H.g_genital   = dna.GetUIValueRange(DNA_UI_GENITAL_G,    255)
+		H.b_genital   = dna.GetUIValueRange(DNA_UI_GENITAL_B,    255)
+
+		//Tits
+		var/breast = dna.GetUIValueRange(DNA_UI_BREAST_TYPE,body_breast_list.len)
+		if((0 < breast) && (breast <= body_breast_list.len))
+			H.c_type = body_breast_list[breast]
+
+		//Dicks
+		var/dick = dna.GetUIValueRange(DNA_UI_PENIS_TYPE,body_dicks_list.len)
+		if((0 < dick) && (dick <= body_dicks_list.len))
+			H.d_type = body_dicks_list[dick]
+
+		//Vagina
+		var/vagina = dna.GetUIValueRange(DNA_UI_VAGINA_TYPE,body_vaginas_list.len)
+		if((0 < vagina) && (vagina <= body_vaginas_list.len))
+			H.v_type = body_vaginas_list[vagina]
+
+		H.update_genitals_showing()
+
 		// Playerscale
 		var/size = dna.GetUIValueRange(DNA_UI_PLAYERSCALE, player_sizes_list.len)
 		if((0 < size) && (size <= player_sizes_list.len))

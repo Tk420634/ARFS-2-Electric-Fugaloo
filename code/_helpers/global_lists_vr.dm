@@ -9,6 +9,9 @@ var/global/list/neutral_traits = list()		// Neutral custom species traits, index
 var/global/list/positive_traits = list()	// Positive custom species traits, indexed by path
 var/global/list/traits_costs = list()		// Just path = cost list, saves time in char setup
 var/global/list/all_traits = list()			// All of 'em at once (same instances)
+var/global/list/body_breast_list = list()	// Stores /datum/sprite_accessory/breasts indexed by type
+var/global/list/body_dicks_list = list()	// Stores /datum/sprite_accessory/dicks indexed by type
+var/global/list/body_vaginas_list = list()	// Stores /datum/sprite_accessory/vaginas indexed by type
 
 //stores numeric player size options indexed by name
 var/global/list/player_sizes_list = list(
@@ -113,6 +116,27 @@ var/global/list/tf_egg_types = list(
 
 /hook/startup/proc/init_vore_datum_ref_lists()
 	var/paths
+
+	//Breasts Initialization
+	paths = typesof(/datum/sprite_accessory/breasts) - /datum/sprite_accessory/breasts
+	for(var/path in paths)
+		var/datum/sprite_accessory/breasts/H = new path()
+		body_breast_list[H.name] = H
+		body_breast_list += H.name
+
+	//Dicks Initialization
+	paths = typesof(/datum/sprite_accessory/dicks) - /datum/sprite_accessory/dicks
+	for(var/path in paths)
+		var/datum/sprite_accessory/dicks/H = new path()
+		body_dicks_list[H.name] = H
+		body_dicks_list += H.name
+
+	//Vaginas Initialization
+	paths = typesof(/datum/sprite_accessory/vaginas) - /datum/sprite_accessory/vaginas
+	for(var/path in paths)
+		var/datum/sprite_accessory/vaginas/H = new path()
+		body_vaginas_list[H.name] = H
+		body_vaginas_list += H.name
 
 	// Custom Ears
 	paths = typesof(/datum/sprite_accessory/ears) - /datum/sprite_accessory/ears

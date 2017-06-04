@@ -1,6 +1,6 @@
 // Global stuff that will put us on the map
 /datum/category_group/player_setup_category/vore
-	name = "VORE"
+	name = "Misc"
 	sort_order = 7
 	category_item_type = /datum/category_item/player_setup_item/vore
 
@@ -49,7 +49,7 @@
 	character.g_tail			= pref.g_tail
 
 /datum/category_item/player_setup_item/vore/ears/content(var/mob/user)
-	. += "<h2>VORE Station Settings</h2>"
+	. += "<h2>Miscellaneous Settings</h2>"
 
 	if(!pref.preview_icon)
 		pref.update_preview_icon()
