@@ -26,17 +26,9 @@
 	damage_mask = 'icons/mob/human_races/masks/dam_mask_seromi.dmi'
 	blood_mask = 'icons/mob/human_races/masks/blood_seromi.dmi'
 
-	slowdown = -1
-	total_health = 50
-	brute_mod = 1.35
-	burn_mod =  1.35
 	mob_size = MOB_SMALL
 	pass_flags = PASSTABLE
 	holder_type = /obj/item/weapon/holder/human
-//	short_sighted = 1
-	gluttonous = 1
-	blood_volume = 400
-	hunger_factor = 0.2
 
 	ambiguous_genders = TRUE
 
@@ -46,12 +38,6 @@
 	swap_flags = MONKEY|SLIME|SIMPLE_ANIMAL
 	push_flags = MONKEY|SLIME|SIMPLE_ANIMAL|ALIEN
 
-	cold_level_1 = 180
-	cold_level_2 = 130
-	cold_level_3 = 70
-	heat_level_1 = 320
-	heat_level_2 = 370
-	heat_level_3 = 600
 	heat_discomfort_level = 295
 	heat_discomfort_strings = list(
 		"Your feathers prickle in the heat.",

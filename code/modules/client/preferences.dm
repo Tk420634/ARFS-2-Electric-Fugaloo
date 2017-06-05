@@ -45,6 +45,12 @@ datum/preferences
 	var/r_eyes = 0						//Eye color
 	var/g_eyes = 0						//Eye color
 	var/b_eyes = 0						//Eye color
+	var/c_type = "None"					//Breast Type // Vorestation edit
+	var/d_type = "None"					//Dick Type // Vorestation edit
+	var/v_type = "None"					//Vagina Type // Vorestation edit
+	var/r_genital = 238					//Genitals color // Vorestation edit
+	var/g_genital = 206					//Genitals color // Vorestation edit
+	var/b_genital = 179					//Genitals color // Vorestation edit
 	var/species = "Human"               //Species datum to use.
 	var/species_preview                 //Used for the species selection window.
 	var/list/alternate_languages = list() //Secondary language(s)
@@ -274,10 +280,10 @@ datum/preferences
 
 	// Ask the preferences datums to apply their own settings to the new mob
 	player_setup.copy_to_mob(character)
-	
+
 	// VOREStation Edit - Sync up all their organs and species one final time
 	character.force_update_organs()
-	
+
 	if(icon_updates)
 		character.force_update_limbs()
 		character.update_mutations(0)
@@ -285,6 +291,7 @@ datum/preferences
 		character.update_underwear(0)
 		character.update_hair(0)
 		character.update_icons()
+		character.update_genitals_showing(0) //ARFS edit
 
 /datum/preferences/proc/open_load_dialog(mob/user)
 	var/dat = "<body>"

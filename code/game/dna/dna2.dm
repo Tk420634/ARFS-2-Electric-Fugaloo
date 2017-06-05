@@ -39,7 +39,13 @@
 #define DNA_UI_TAIL_R      20
 #define DNA_UI_TAIL_G      21
 #define DNA_UI_TAIL_B      22
-#define DNA_UI_LENGTH      22 // Update this when you add something, or you WILL break shit.
+#define DNA_UI_BREAST_TYPE 23
+#define DNA_UI_PENIS_TYPE  24
+#define DNA_UI_VAGINA_TYPE 25
+#define DNA_UI_GENITAL_R   26
+#define DNA_UI_GENITAL_G   27
+#define DNA_UI_GENITAL_B   28
+#define DNA_UI_LENGTH      28 // Update this when you add something, or you WILL break shit.
 
 #define DNA_SE_LENGTH 27
 // For later:
@@ -147,6 +153,17 @@ var/global/list/datum/dna/gene/dna_genes[0]
 		character.f_style = "Shaved"
 	var/beard	= facial_hair_styles_list.Find(character.f_style)
 
+	//Gender stuff
+	if (!character.c_type)
+		character.c_type = "None"
+	var/breast = body_breast_list.Find(character.c_type)
+	if (!character.d_type)
+		character.d_type = "None"
+	var/dick = body_dicks_list.Find(character.d_type)
+	if (!character.v_type)
+		character.v_type = "None"
+	var/vagina = body_vaginas_list.Find(character.v_type)
+
 
 	// VOREStation Edit Start
 
@@ -185,6 +202,14 @@ var/global/list/datum/dna/gene/dna_genes[0]
 	SetUIValueRange(DNA_UI_TAIL_B,    character.b_tail,    255,    1)
 
 	// VORE Station Edit End
+
+	SetUIValueRange(DNA_UI_BREAST_TYPE, breast, body_breast_list.len,1)
+	SetUIValueRange(DNA_UI_PENIS_TYPE, dick, body_dicks_list.len,1)
+	SetUIValueRange(DNA_UI_VAGINA_TYPE, vagina, body_vaginas_list.len,1)
+
+	SetUIValueRange(DNA_UI_GENITAL_R,    character.r_genital,    255,    1)
+	SetUIValueRange(DNA_UI_GENITAL_G,    character.g_genital,    255,    1)
+	SetUIValueRange(DNA_UI_GENITAL_B,    character.b_genital,    255,    1)
 
 	SetUIValueRange(DNA_UI_HAIR_R,    character.r_hair,    255,    1)
 	SetUIValueRange(DNA_UI_HAIR_G,    character.g_hair,    255,    1)
