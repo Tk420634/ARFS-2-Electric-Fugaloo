@@ -108,17 +108,17 @@ Please contact me on #coderbus IRC. ~Carn x
 //Human Overlays Indexes/////////
 #define MUTATIONS_LAYER			1
 #define DAMAGE_LAYER			2
-#define SURGERY_LEVEL			3		//bs12 specific.
-#define GENITALS_LAYER			4		//arfs edit c:
+#define SURGERY_LEVEL			3 //bs12 specific.
+#define GENITALS_LAYER			4	//arfs edit c:
 #define UNDERWEAR_LAYER  		5
 #define SHOES_LAYER_ALT			6
 #define UNIFORM_LAYER			7
 #define ID_LAYER				8
 #define SHOES_LAYER				9
-#define GLOVES_LAYER			10
-#define BELT_LAYER				11
-#define SUIT_LAYER				12
-#define TAIL_LAYER				13		//bs12 specific.	//In a perfect world the parts of the tail that show between legs would be on a new layer. Until then, sprite's been tweaked
+#define BELT_LAYER				10
+#define SUIT_LAYER				11
+#define TAIL_LAYER				12	//bs12 specific.	//In a perfect world the parts of the tail that show between legs would be on a new layer. Until then, sprite's been tweaked
+#define GLOVES_LAYER			13
 #define GLASSES_LAYER			14
 #define BELT_LAYER_ALT			15
 #define SUIT_STORE_LAYER		16
