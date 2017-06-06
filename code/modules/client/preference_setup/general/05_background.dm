@@ -6,17 +6,17 @@
 	S["med_record"]				>> pref.med_record
 	S["sec_record"]				>> pref.sec_record
 	S["gen_record"]				>> pref.gen_record
-	S["home_system"]			>> pref.home_system
+/*	S["home_system"]			>> pref.home_system
 	S["citizenship"]			>> pref.citizenship
 	S["faction"]				>> pref.faction
 	S["religion"]				>> pref.religion
 	S["nanotrasen_relation"]	>> pref.nanotrasen_relation
-
+*/
 /datum/category_item/player_setup_item/general/background/save_character(var/savefile/S)
 	S["med_record"]				<< pref.med_record
 	S["sec_record"]				<< pref.sec_record
 	S["gen_record"]				<< pref.gen_record
-	S["home_system"]			<< pref.home_system
+/*	S["home_system"]			<< pref.home_system
 	S["citizenship"]			<< pref.citizenship
 	S["faction"]				<< pref.faction
 	S["religion"]				<< pref.religion
@@ -29,25 +29,25 @@
 	if(!pref.religion)    pref.religion =    "None"
 
 	pref.nanotrasen_relation = sanitize_inlist(pref.nanotrasen_relation, COMPANY_ALIGNMENTS, initial(pref.nanotrasen_relation))
-
+*/
 // Moved from /datum/preferences/proc/copy_to()
 /datum/category_item/player_setup_item/general/background/copy_to_mob(var/mob/living/carbon/human/character)
 	character.med_record		= pref.med_record
 	character.sec_record		= pref.sec_record
 	character.gen_record		= pref.gen_record
-	character.home_system		= pref.home_system
+/*	character.home_system		= pref.home_system
 	character.citizenship		= pref.citizenship
 	character.personal_faction	= pref.faction
 	character.religion			= pref.religion
-
+*/
 /datum/category_item/player_setup_item/general/background/content(var/mob/user)
-	. += "<b>Background Information</b><br>"
+/*	. += "<b>Background Information</b><br>"
 	. += "[using_map.company_name] Relation: <a href='?src=\ref[src];nt_relation=1'>[pref.nanotrasen_relation]</a><br/>"
 	. += "Home System: <a href='?src=\ref[src];home_system=1'>[pref.home_system]</a><br/>"
 	. += "Citizenship: <a href='?src=\ref[src];citizenship=1'>[pref.citizenship]</a><br/>"
 	. += "Faction: <a href='?src=\ref[src];faction=1'>[pref.faction]</a><br/>"
 	. += "Religion: <a href='?src=\ref[src];religion=1'>[pref.religion]</a><br/>"
-
+*/
 	. += "<br/><b>Records</b>:<br/>"
 	if(jobban_isbanned(user, "Records"))
 		. += "<span class='danger'>You are banned from using character records.</span><br>"
@@ -60,7 +60,7 @@
 		. += "<a href='?src=\ref[src];set_security_records=1'>[TextPreview(pref.sec_record,40)]</a><br>"
 
 /datum/category_item/player_setup_item/general/background/OnTopic(var/href,var/list/href_list, var/mob/user)
-	if(href_list["nt_relation"])
+/*	if(href_list["nt_relation"])
 		var/new_relation = input(user, "Choose your relation to NT. Note that this represents what others can find out about your character by researching your background, not what your character actually thinks.", "Character Preference", pref.nanotrasen_relation)  as null|anything in COMPANY_ALIGNMENTS
 		if(new_relation && CanUseTopic(user))
 			pref.nanotrasen_relation = new_relation
@@ -113,8 +113,8 @@
 		else
 			pref.religion = choice
 		return TOPIC_REFRESH
-
-	else if(href_list["set_medical_records"])
+*/
+	if(href_list["set_medical_records"])
 		var/new_medical = sanitize(input(user,"Enter medical information here.","Character Preference", html_decode(pref.med_record)) as message|null, MAX_RECORD_LENGTH, extra = 0)
 		if(!isnull(new_medical) && !jobban_isbanned(user, "Records") && CanUseTopic(user))
 			pref.med_record = new_medical

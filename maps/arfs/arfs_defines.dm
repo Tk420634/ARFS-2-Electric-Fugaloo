@@ -1,7 +1,7 @@
 #define Z_LEVEL_MAIN_ARFS					1
 #define Z_LEVEL_MINING_ARFS					2
-#define Z_LEVEL_EMPTY_ARFS					3
-#define Z_LEVEL_CENTCOM_ARFS				4
+#define Z_LEVEL_CENTCOM_ARFS				3
+#define Z_LEVEL_EMPTY_ARFS					4
 
 
 /datum/map/arfs

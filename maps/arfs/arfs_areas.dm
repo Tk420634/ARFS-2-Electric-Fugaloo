@@ -1,5 +1,20 @@
 // Areas defined via tether used on arfs map
 
+
+
+// antag
+
+/area/shuttle/antag_ground/base
+	name = "\improper Syndicate LC - Base"
+	icon_state = "shuttle2"
+/area/shuttle/antag_ground/transit
+	name = "\improper Syndicate LC - Transit"
+	icon_state = "shuttle2"
+
+/area/shuttle/antag_ground/solars
+	name = "\improper Syndicate LC - Solars"
+	icon_state = "shuttle2"
+
 // RND
 
 /area/rnd/hallway
