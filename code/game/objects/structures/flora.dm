@@ -360,3 +360,60 @@
 	name = "small christmas tree"
 	desc = "This is a tiny well lit decorative christmas tree."
 	icon_state = "plant-xmas"
+
+//ARFS
+
+/obj/structure/flora/pottedplant/plant26
+	name = "An eyeball plant"
+	desc = "Thats a plant. It has what looks like an eye. OH GOD ITS LOOKING AT ME!"
+	icon_state = "eyeplant"
+
+/obj/structure/flora/pottedplant/plant27
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-27"
+
+/obj/structure/flora/pottedplant/plant28
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-28"
+
+/obj/structure/flora/pottedplant/plant29
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-29"
+
+/obj/structure/flora/pottedplant/plant30
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-30"
+
+/obj/structure/flora/pottedplant/plant31
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-31"
+
+/obj/structure/flora/pottedplant/plant32
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-32"
+
+/obj/structure/flora/pottedplant/plant33
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-33"
+
+/obj/structure/flora/pottedplant/plant34
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-34"
+
+/obj/structure/flora/pottedplant/plant35
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-35"
+
+/obj/structure/flora/pottedplant/plant36
+	name = "A plant"
+	desc = "Thats a plant."
+	icon_state = "plant-36"
