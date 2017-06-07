@@ -691,3 +691,53 @@ ckey: zodiacshadow
 character_name: Nehi Maximus
 item_path: /obj/item/device/radio/headset/fluff/zodiacshadow
 }
+
+
+# ######## ARFS DONATIONS
+
+# ######## A CKEYS
+
+{
+ckey: andyman105
+character_name: Zephyr
+item_path: /obj/item/clothing/under/middriftturtleneck
+}
+
+{
+ckey: andyman105
+character_name: Agalon Isaman
+item_path: /obj/item/clothing/accessory/watch
+}
+
+# ######## C CKEYS
+{
+ckey: cebutris
+character_name: Wolfy Tubek
+item_path: /obj/item/weapon/soap/cebusoap
+}
+
+# ######## K CKEYS
+
+{
+ckey: killbow
+character_name: Michele Antonelli
+item_path: /obj/item/weapon/killbowstaff
+}
+
+{
+ckey: killbow
+character_name: Michele Antonelli
+item_path: /obj/item/clothing/under/arroganza
+}
+
+# ####### R CKEYS
+
+{
+ckey: runeguden
+item_path: /obj/toy/plushie/rune
+}
+
+{
+ckey: runeguden
+item_path: /obj/item/weapon/storage/toolbox/lunchbox/rune/filled
+}
