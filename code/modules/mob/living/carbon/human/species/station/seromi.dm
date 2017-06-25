@@ -27,7 +27,7 @@
 	blood_mask = 'icons/mob/human_races/masks/blood_seromi.dmi'
 
 	mob_size = MOB_SMALL
-	pass_flags = PASSTABLE
+	/*pass_flags = PASSTABLE*/
 	holder_type = /obj/item/weapon/holder/human
 
 	ambiguous_genders = TRUE
@@ -76,7 +76,7 @@
 
 	inherent_verbs = list(
 		/mob/living/carbon/human/proc/sonar_ping,
-		/mob/living/proc/hide
+		/*/mob/living/proc/hide*/
 		)
 
 /datum/species/teshari/equip_survival_gear(var/mob/living/carbon/human/H)
