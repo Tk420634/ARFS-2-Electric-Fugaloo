@@ -1,5 +1,6 @@
 /datum/species
 	var/vore_numbing = 0
+	var/ckeyrestricted = null
 
 /datum/species/custom
 	name = "Custom Species"

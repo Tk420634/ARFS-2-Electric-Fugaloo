@@ -163,6 +163,7 @@
 					src << alert("You are currently not whitelisted to Play [client.prefs.species].")
 					return 0
 */
+
 		LateChoices()
 
 	if(href_list["manifest"])
@@ -185,6 +186,10 @@
 		if(!(S.spawn_flags & SPECIES_CAN_JOIN))
 			src << alert("Your current species, [client.prefs.species], is not available for play on the station.")
 			return 0
+		if(S.ckeyrestricted)
+			if(!(S.ckeyrestricted == src.ckey))
+				src << alert("Your current species, [client.prefs.species], is a player restricted race. We're working onto removing donator races to be shown in selection.")
+				return 0
 
 		AttemptLateSpawn(href_list["SelectedJob"],client.prefs.spawnpoint)
 		return

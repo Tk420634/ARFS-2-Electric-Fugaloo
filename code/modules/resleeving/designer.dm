@@ -73,7 +73,7 @@
 		var/stock_bodyrecords_list_ui[0]
 		for (var/N in all_species)
 			var/datum/species/S = all_species[N]
-			if((S.spawn_flags & (SPECIES_IS_WHITELISTED|SPECIES_CAN_JOIN)) != SPECIES_CAN_JOIN) continue
+			if((S.spawn_flags & (SPECIES_IS_WHITELISTED|SPECIES_CAN_JOIN|!SPECIES_PLAYER_RESTRICTED)) != SPECIES_CAN_JOIN) continue
 			stock_bodyrecords_list_ui += N
 		if(stock_bodyrecords_list_ui.len)
 			data["stock_bodyrecords"] = stock_bodyrecords_list_ui
@@ -168,7 +168,7 @@
 
 	else if(href_list["view_stock_brec"])
 		var/datum/species/S = all_species[href_list["view_stock_brec"]]
-		if(S && (S.spawn_flags & (SPECIES_IS_WHITELISTED|SPECIES_CAN_JOIN)) == SPECIES_CAN_JOIN)
+		if(S && (S.spawn_flags & (SPECIES_IS_WHITELISTED|SPECIES_CAN_JOIN|!SPECIES_PLAYER_RESTRICTED)) == SPECIES_CAN_JOIN)
 			// Generate body record from species!
 			mannequin = new(null, S.name)
 			mannequin.real_name = "Stock [S.name] Body"
