@@ -184,14 +184,6 @@ var/global/list/datum/dna/gene/dna_genes[0]
 			size_multiplier = player_sizes_list.Find(N)
 			break
 
-	// Technically custom_species is not part of the UI, but this place avoids merge problems.
-	src.custom_species = character.custom_species
-	if(istype(character.species,/datum/species/custom))
-		var/datum/species/custom/CS = character.species
-		src.species_traits = CS.traits.Copy()
-		src.base_species = CS.base_species
-		src.blood_color = CS.blood_color
-
 	// +1 to account for the none-of-the-above possibility
 	SetUIValueRange(DNA_UI_EAR_STYLE,	ear_style + 1,     ear_styles_list.len  + 1,  1)
 	SetUIValueRange(DNA_UI_TAIL_STYLE,	tail_style + 1,    tail_styles_list.len + 1,  1)
