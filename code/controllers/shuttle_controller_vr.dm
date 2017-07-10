@@ -44,7 +44,7 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttle.move_time = SHUTTLE_TRANSIT_DURATION_RETURN
 	shuttles["Escape"] = shuttle
 	process_shuttles += shuttle
-
+/*
 	//////////////////////////////////////////////////////////////
 	shuttle = new/datum/shuttle/ferry/escape_pod()
 	shuttle.location = 0 // At station
@@ -70,14 +70,15 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttle.move_time = SHUTTLE_TRANSIT_DURATION_RETURN + rand(-30, 60)	//randomize this so it seems like the pods are being picked up one by one
 	process_shuttles += shuttle
 	shuttles["Large Escape Pod 2"] = shuttle
-
+*/
 	//give the emergency shuttle controller it's shuttles
 	emergency_shuttle.shuttle = shuttles["Escape"]
+/*
 	emergency_shuttle.escape_pods = list(
 		shuttles["Large Escape Pod 1"],
 		shuttles["Large Escape Pod 2"],
 	)
-
+*/
 	//////////////////////////////////////////////////////////////
 	// Supply shuttle
 	shuttle = new/datum/shuttle/ferry/supply()
@@ -91,7 +92,7 @@ var/global/datum/shuttle_controller/shuttle_controller
 	process_shuttles += shuttle
 
 	supply_controller.shuttle = shuttle
-
+/*
 	//////////////////////////////////////////////////////////////
 	// Trade Ship
 	shuttle = new()
@@ -134,7 +135,7 @@ var/global/datum/shuttle_controller/shuttle_controller
 	AM.move_time = 60
 	AM.warmup_time = 8
 	shuttles["AwayMission"] = AM
-
+*/
 // TETHER SHUTTLE
 
 /*
