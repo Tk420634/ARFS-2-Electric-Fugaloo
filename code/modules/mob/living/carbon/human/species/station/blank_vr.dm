@@ -2,6 +2,9 @@
 	var/vore_numbing = 0
 	var/ckeyrestricted = null
 
+// JonathanHybrid - Removed custom species temporarily to protect donator races from being used.
+
+/*
 /datum/species/custom
 	name = "Custom Species"
 	name_plural = "Custom"
@@ -107,3 +110,4 @@
 		H.internals.icon_state = "internal1"
 	*/
 	return ..()
+*/

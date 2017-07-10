@@ -1,6 +1,9 @@
 /mob/new_player/proc/spawn_checks_vr()
 	var/pass = TRUE
 
+// ARFS Edit - Don't want no OOC nots, plus custom species have been disabled.
+
+/*
 	//No OOC notes
 	if (config.allow_Metadata && client && client.prefs && (isnull(client.prefs.metadata) || length(client.prefs.metadata) < 15))
 		src << "<span class='warning'>Please set informative OOC notes related to ERP preferences. Set them using the 'OOC Notes' button on the 'General' tab in character setup.</span>"
@@ -34,7 +37,7 @@
 		if(points_left < 0 || traits_left < 0)
 			pass = FALSE
 			src << "<span class='warning'>Your custom species is not playable. Reconfigure your traits on the VORE tab.</span>"
-
+*/
 	//Final popup notice
 	if (!pass)
 		alert(src,"There were problems with spawning your character. Check your message log for details.","Error","OK")
