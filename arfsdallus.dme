@@ -1777,7 +1777,6 @@
 #include "code\modules\mob\living\carbon\human\species\station\station.dm"
 #include "code\modules\mob\living\carbon\human\species\station\station_special_abilities_vr.dm"
 #include "code\modules\mob\living\carbon\human\species\station\station_vr.dm"
-#include "code\modules\mob\living\carbon\human\species\station\arfs\donator_races.dm"
 #include "code\modules\mob\living\carbon\metroid\death.dm"
 #include "code\modules\mob\living\carbon\metroid\emote.dm"
 #include "code\modules\mob\living\carbon\metroid\examine.dm"
