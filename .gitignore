@@ -13,3 +13,6 @@ code/game/gamemodes/technomancer/spells/projectile/overload.dm
 code/game/gamemodes/technomancer/spells/projectile/overload.dm
 code/modules/client/preference_setup/loadout/loadout_xeno.dm
 temp.dmi
+/maps/arfs/backup/arfs-4.dmm
+/maps/virgo/backup/virgo-1.dmm
+/maps/virgo/backup/virgo-2.dmm
