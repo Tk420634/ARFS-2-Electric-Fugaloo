@@ -1,23 +1,24 @@
 #define Z_LEVEL_MAIN_ARFS					1
 #define Z_LEVEL_MINING_ARFS					2
 #define Z_LEVEL_CENTCOM_ARFS				3
-#define Z_LEVEL_EMPTY_ARFS					4
+#define Z_LEVEL_HOTEL_ARFS				4
+#define Z_LEVEL_EMPTY_ARFS					5
 
 
 /datum/map/arfs
 	name = "ARFS"
 	full_name = "ARFS Dallus"
-	path = "arfs_dallus"
+	path = "arfs"
 
 	lobby_icon = 'icons/misc/title.dmi'
 	lobby_screens = list("arfs")
 
 	station_levels = list(
 		Z_LEVEL_MAIN_ARFS,
-		Z_LEVEL_MINING_ARFS
 		)
 
 	admin_levels = list(Z_LEVEL_CENTCOM_ARFS)
+
 	contact_levels = list(
 		Z_LEVEL_MAIN_ARFS,
 		Z_LEVEL_CENTCOM_ARFS,
@@ -26,21 +27,27 @@
 
 	player_levels = list(
 		Z_LEVEL_MAIN_ARFS,
-		Z_LEVEL_MINING_ARFS,
+		Z_LEVEL_EMPTY_ARFS,
+		Z_LEVEL_HOTEL_ARFS
 		)
 
-	base_turf_by_z = list("1" = /turf/space,"2" = /turf/space)
+	sealed_levels = list(Z_LEVEL_MINING_ARFS)
+
+	accessible_z_levels = list("1" = 5, "4" = 15, "5" = 20) // The defines can't be used here sadly.
+
+
+	base_turf_by_z = list("2" = /turf/simulated/mineral/floor)
 
 // to do: change accordingly for arfs.
 
-	station_name  = "The Funhouse"
-	station_short = "Funhouse"
-	dock_name     = "the Maximum Fun Chamber"
-	boss_name     = "Mister Fun"
-	boss_short    = "Mr. Fun"
-	company_name  = "Fun Inc."
-	company_short = "FI"
-	starsys_name  = "Vir"
+	station_name  = "ARFS Dallus"
+	station_short = "ARFS"
+	dock_name     = "the docking area"
+	boss_name     = "Taylor"
+	boss_short    = "Tay"
+	company_name  = "ARFS"
+	company_short = "ARFS"
+	starsys_name  = "Arf"
 
 	shuttle_docked_message = "The scheduled shuttle to the %dock_name% has docked with the station at docks one and two. It will depart in approximately %ETD%."
 	shuttle_leaving_dock = "The Crew Transfer Shuttle has left the station. Estimate %ETA% until the shuttle docks at %dock_name%."

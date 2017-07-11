@@ -149,7 +149,7 @@ var/global/list/tf_egg_types = list(
 	for(var/path in paths)
 		var/datum/sprite_accessory/tail/instance = new path()
 		tail_styles_list[path] = instance
-
+/*
 	// Custom species traits
 	paths = typesof(/datum/trait) - /datum/trait
 	for(var/path in paths)
@@ -164,5 +164,5 @@ var/global/list/tf_egg_types = list(
 				neutral_traits[path] = instance
 			if(0.1 to INFINITY)
 				positive_traits[path] = instance
-
+*/
 	return 1 // Hooks must return 1

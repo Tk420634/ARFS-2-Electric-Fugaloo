@@ -251,32 +251,6 @@ area/space/atmosalert()
 /area/shuttle/escape_pod6/transit
 	icon_state = "shuttle"
 
-/area/shuttle/large_escape_pod1
-	name = "\improper Large Escape Pod One"
-	music = "music/escape.ogg"
-
-/area/shuttle/large_escape_pod1/station
-	icon_state = "shuttle2"
-
-/area/shuttle/large_escape_pod1/centcom
-	icon_state = "shuttle"
-
-/area/shuttle/large_escape_pod1/transit
-	icon_state = "shuttle"
-
-/area/shuttle/large_escape_pod2
-	name = "\improper Large Escape Pod Two"
-	music = "music/escape.ogg"
-
-/area/shuttle/large_escape_pod2/station
-	icon_state = "shuttle2"
-
-/area/shuttle/large_escape_pod2/centcom
-	icon_state = "shuttle"
-
-/area/shuttle/large_escape_pod2/transit
-	icon_state = "shuttle"
-
 /area/shuttle/cryo
 	name = "\improper Cryogenic Storage"
 
@@ -352,7 +326,7 @@ area/space/atmosalert()
 /area/shuttle/administration/station
 	name = "NSS Adephagia (AS)" //VOREStation Edit
 	icon_state = "shuttlered2"
-
+/*
 /area/shuttle/trade/centcom
 	name = "\improper Trade Shuttle CentCom"
 	icon_state = "shuttlered"
@@ -360,7 +334,7 @@ area/space/atmosalert()
 /area/shuttle/trade/station
 	name = "\improper Trade Shuttle"
 	icon_state = "shuttlered"
-
+*/
 /area/shuttle/thunderdome
 	name = "honk"
 

@@ -1,5 +1,23 @@
+/datum/species/datashark
+	name = "Datashark"
+	name_plural = "datasharks"
+	var/base_species = "Human"
+	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
+	blurb = ""
+	icobase = 'icons/mob/human_races/arfs/r_datashark_arf.dmi'    // Normal icon set.
+	deform = 'icons/mob/human_races/arfs/r_datashark_arf.dmi' // Mutated icon set.
+	name_language = null // Use the first-name last-name generator rather than a language scrambler
+	min_age = 18
+	max_age = 100
+	health_hud_intensity = 2
+	num_alternate_languages = 3
+	spawn_flags = SPECIES_CAN_JOIN
+	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-// LOPUNNY RACE - Donated by:
+	ckeyrestricted = "rubyflamewing"
+
+
+// LOPUNNY RACE - Restricted to Killbow
 /datum/species/lopunny
 	name = "Lopunny"
 	name_plural = "Lopunnies"
@@ -8,9 +26,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_lopunny_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_lopunny_arf.dmi' // Mutated icon set.
@@ -24,10 +40,11 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
+	ckeyrestricted = "killbow"
 
 
 
-// RENAMON RACE - Donated by:
+// RENAMON RACE
 /datum/species/renamon
 	name = "Renamon"
 	name_plural = "Renamons"
@@ -36,9 +53,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_renamon_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_renamon_arf.dmi' // Mutated icon set.
@@ -55,7 +70,7 @@
 
 
 
-// GROVYLE RACE - Donated by:
+// GROVYLE RACE - Restricted to KriegsmarineOffizier
 /datum/species/grovyle
 	name = "Grovyle"
 	name_plural = "Groyvles"
@@ -64,9 +79,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_grovyle_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_grovyle_arf.dmi' // Mutated icon set.
@@ -79,11 +92,11 @@
 
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
+	ckeyrestricted = "kriegsmarineoffizier"
 
 
 
-
-// EEVEE RACE - Donated by:
+// EEVEE RACE - Restricted to ThingPony
 /datum/species/eevee
 	name = "Eevee"
 	name_plural = "Eevees"
@@ -92,9 +105,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_eevee_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_eevee_arf.dmi' // Mutated icon set.
@@ -108,9 +119,10 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
+	ckeyrestricted = "thingpony"
 
 
-// GLACEON RACE - Donated by:
+// GLACEON RACE
 /datum/species/glaceon
 	name = "Glaceon"
 	name_plural = "Glaceons"
@@ -119,9 +131,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_glaceon_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_glaceon_arf.dmi' // Mutated icon set.
@@ -136,18 +146,14 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 
-// SHINY GLACEON RACE - Donated by:
+// SHINY GLACEON RACE - Restricted to Alex123890
 /datum/species/glaceon_s
 	name = "Shiny Glaceon"
 	name_plural = "Shiny Glaceons"
 	var/base_species = "Human"
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-
-
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_glaceon_s_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_glaceon_s_arf.dmi' // Mutated icon set.
@@ -161,19 +167,16 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
+	ckeyrestricted = "alex123890"
 
-// MING RACE - Donated by:
+// MING RACE - Restricted to Tk420634
 /datum/species/ming
 	name = "Ming"
 	name_plural = "Mings"
 	var/base_species = "Human"
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-
-
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_ming_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_ming_arf.dmi' // Mutated icon set.
@@ -187,8 +190,10 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_SKIN_COLOR
 
+	ckeyrestricted = "tk420634"
 
-// SUBTERANEAN SLIME RACE - Donated by:
+
+// SUBTERANEAN SLIME RACE - Restricted to Runeguden
 /datum/species/rune
 	name = "Subteranean Slime"
 	name_plural = "Subteranean Slimes"
@@ -197,9 +202,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_rune_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_rune_arf.dmi' // Mutated icon set.
@@ -213,8 +216,10 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_SKIN_COLOR
 
+	ckeyrestricted = "runeguden"
 
-// FLAREON RACE - Donated by:
+
+// FLAREON RACE
 /datum/species/flareon
 	name = "Flareon"
 	name_plural = "Flareons"
@@ -223,9 +228,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_flareon_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_flareon_arf.dmi' // Mutated icon set.
@@ -240,33 +243,7 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 
-// STITCH RACE - Donated by:
-/datum/species/stitch
-	name = "Stitch"
-	name_plural = "Stiches"
-	var/base_species = "Human"
-
-	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-
-
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
-
-	icobase = 'icons/mob/human_races/arfs/r_stitch_arf.dmi'    // Normal icon set.
-	deform = 'icons/mob/human_races/arfs/r_stitch_arf.dmi' // Mutated icon set.
-
-	name_language = null // Use the first-name last-name generator rather than a language scrambler
-	min_age = 18
-	max_age = 100
-	health_hud_intensity = 2
-	num_alternate_languages = 3
-
-	spawn_flags = SPECIES_CAN_JOIN
-	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
-
-// ABSOL RACE - Donated by:
+// ABSOL RACE - Restricted to Chokin and Tokin
 /datum/species/absol
 	name = "Absol"
 	name_plural = "Absols"
@@ -275,9 +252,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_absol_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_absol_arf.dmi' // Mutated icon set.
@@ -291,8 +266,9 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
+	ckeyrestricted = "chokinandtokin"
 
-// LUGIA RACE - Donated by: FartingOwl
+// LUGIA RACE
 /datum/species/lugia
 	name = "Lugia"
 	name_plural = "Lugias"
@@ -301,9 +277,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_lugia_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_lugia_arf.dmi' // Mutated icon set.
@@ -318,35 +292,7 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 
-
-// SHINY LUGIA RACE - Donated by: FartingOwl
-/datum/species/lugia_s
-	name = "Shiny Lugia"
-	name_plural = "Shiny Lugias"
-	var/base_species = "Human"
-
-	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-
-
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
-
-	icobase = 'icons/mob/human_races/arfs/r_lugia_s_arf.dmi'    // Normal icon set.
-	deform = 'icons/mob/human_races/arfs/r_lugia_s_arf.dmi' // Mutated icon set.
-
-	name_language = null // Use the first-name last-name generator rather than a language scrambler
-	min_age = 18
-	max_age = 100
-	health_hud_intensity = 2
-	num_alternate_languages = 3
-
-	spawn_flags = SPECIES_CAN_JOIN | SPECIES_PLAYER_RESTRICTED
-	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
-	ckeyrestricted = "fartingowl"
-
-// LUCK RACE - Donated by:
+// LUCK RACE - Restricted to LuckyKoryo
 /datum/species/lucky
 	name = "Lucky"
 	name_plural = "Luckies"
@@ -355,9 +301,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 
-	blurb = "This is a custom species where you can assign various species traits to them as you wish, to \
-	create a (hopefully) balanced species. You will see the options to customize them on the VORE tab once \
-	you select and set this species as your species. Please look at the VORE tab if you select this species."
+	blurb = ""
 
 	icobase = 'icons/mob/human_races/arfs/r_lucky_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_lucky_arf.dmi' // Mutated icon set.
@@ -371,3 +315,4 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
+	ckeyrestricted = "luckykoryo"

@@ -115,7 +115,6 @@
 	prefs.r_tail			= character.r_tail
 	prefs.b_tail			= character.b_tail
 	prefs.g_tail			= character.g_tail
-	prefs.custom_species	= character.custom_species
 
 // Saves mob's current organ state to prefs.
 // This basically needs to be the reverse of /datum/category_item/player_setup_item/general/body/copy_to_mob() ~Leshana

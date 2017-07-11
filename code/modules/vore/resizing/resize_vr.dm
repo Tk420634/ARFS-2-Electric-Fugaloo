@@ -1,16 +1,16 @@
 
 //these aren't defines so they can stay in this file
-var/const/RESIZE_HUGE = 2
-var/const/RESIZE_BIG = 1.5
+var/const/RESIZE_HUGE = 1.6
+var/const/RESIZE_BIG = 1.3
 var/const/RESIZE_NORMAL = 1
-var/const/RESIZE_SMALL = 0.5
-var/const/RESIZE_TINY = 0.25
+var/const/RESIZE_SMALL = 0.8
+var/const/RESIZE_TINY = 0.6
 
 //average
-var/const/RESIZE_A_HUGEBIG = (RESIZE_HUGE + RESIZE_BIG) / 2
-var/const/RESIZE_A_BIGNORMAL = (RESIZE_BIG + RESIZE_NORMAL) / 2
-var/const/RESIZE_A_NORMALSMALL = (RESIZE_NORMAL + RESIZE_SMALL) / 2
-var/const/RESIZE_A_SMALLTINY = (RESIZE_SMALL + RESIZE_TINY) / 2
+var/const/RESIZE_A_HUGEBIG = (RESIZE_HUGE + RESIZE_BIG) / 1.23
+var/const/RESIZE_A_BIGNORMAL = (RESIZE_BIG + RESIZE_NORMAL) / 1.3
+var/const/RESIZE_A_NORMALSMALL = (RESIZE_NORMAL + RESIZE_SMALL) / 1.25
+var/const/RESIZE_A_SMALLTINY = (RESIZE_SMALL + RESIZE_TINY) / 1.33
 
 // Adding needed defines to /mob/living
 // Note: Polaris had this on /mob/living/carbon/human We need it higher up for animals and stuff.
@@ -100,10 +100,15 @@ var/const/RESIZE_A_SMALLTINY = (RESIZE_SMALL + RESIZE_TINY) / 2
 		message_admins("[key_name(src)] used the resize command in-game to be [size_name]. \
 			([src ? "<a href='?_src_=holder;adminplayerobservecoodjump=1;X=[src.x];Y=[src.y];Z=[src.z]'>JMP</a>" : "null"])")
 
+
+// JonathanHybrid - Removed it from being a usable verb.
+
+/*
 /** Add the set_size() proc to usable verbs. */
 /hook/living_new/proc/resize_setup(mob/living/H)
 	H.verbs += /mob/living/proc/set_size
 	return 1
+*/
 
 /**
  * Attempt to scoop up this mob up into H's hands, if the size difference is large enough.
