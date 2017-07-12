@@ -20,7 +20,3 @@
 
 	minbodytemp = 200
 
-// Activate Noms!
-/mob/living/simple_animal/hostile/wolf
-	vore_active = 1
-	vore_icons = SA_ICON_LIVING

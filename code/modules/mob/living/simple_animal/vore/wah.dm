@@ -27,12 +27,6 @@
 	emote_hear = list("wahs!","chitters.")
 	emote_see = list("trundles around","rears up onto their hind legs and pounces a bug")
 
-// Activate Noms!
-/mob/living/simple_animal/wah
-	vore_active = 1
-	vore_pounce_chance = 40
-	vore_icons = SA_ICON_LIVING
-
 /mob/living/simple_animal/wah/fae
 	name = "dark wah"
 	desc = "Ominous, but still cute!"

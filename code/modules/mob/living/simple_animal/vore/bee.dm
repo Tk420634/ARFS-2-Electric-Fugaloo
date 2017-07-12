@@ -39,7 +39,3 @@
 /mob/living/simple_animal/hostile/bee/Process_Spacemove(var/check_drift = 0)
 	return 1	//No drifting in space for space bee!
 
-// Activate Noms!
-/mob/living/simple_animal/hostile/bee
-	vore_active = 1
-	vore_icons = SA_ICON_LIVING
