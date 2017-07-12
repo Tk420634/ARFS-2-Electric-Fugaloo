@@ -28,12 +28,11 @@
 	player_levels = list(
 		Z_LEVEL_MAIN_ARFS,
 		Z_LEVEL_EMPTY_ARFS,
-		Z_LEVEL_HOTEL_ARFS
+		Z_LEVEL_HOTEL_ARFS,
+		Z_LEVEL_MINING_ARFS
 		)
 
-	sealed_levels = list(Z_LEVEL_MINING_ARFS)
-
-	accessible_z_levels = list("1" = 5, "4" = 15, "5" = 20) // The defines can't be used here sadly.
+	accessible_z_levels = list("1" = 5, "4" = 15, "5" = 20, "2" = 25) // The defines can't be used here sadly.
 
 
 	base_turf_by_z = list("2" = /turf/simulated/mineral/floor)
