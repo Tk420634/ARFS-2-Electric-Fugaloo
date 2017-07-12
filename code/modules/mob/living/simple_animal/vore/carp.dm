@@ -19,10 +19,3 @@
 	pixel_x = -16
 	pixel_y = -16
 
-// Activate Noms!
-/mob/living/simple_animal/hostile/carp/large
-	vore_active = 1
-	vore_pounce_chance = 50
-	vore_capacity = 2
-	vore_max_size = RESIZE_HUGE
-	vore_icons = SA_ICON_LIVING

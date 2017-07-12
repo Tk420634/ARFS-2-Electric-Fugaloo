@@ -15,12 +15,3 @@
 	pixel_x = -16
 	pixel_y = 0
 
-// Activate Noms!
-/mob/living/simple_animal/hostile/deathclaw
-	vore_active = 1
-	vore_capacity = 2
-	vore_escape_chance = 5
-	vore_max_size = RESIZE_HUGE
-	vore_min_size = RESIZE_SMALL
-	vore_pounce_chance = 50
-	vore_icons = SA_ICON_LIVING

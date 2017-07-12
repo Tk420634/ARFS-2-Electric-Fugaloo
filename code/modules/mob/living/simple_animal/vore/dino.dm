@@ -21,9 +21,3 @@
 	heat_damage_per_tick = 15
 	cold_damage_per_tick = 10
 	unsuitable_atoms_damage = 10
-
-// Activate Noms!
-/mob/living/simple_animal/hostile/dino
-	vore_active = 1
-	swallowTime = 1 SECOND // Hungry little bastards.
-	vore_icons = SA_ICON_LIVING
