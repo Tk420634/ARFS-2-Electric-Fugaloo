@@ -235,8 +235,8 @@ obj/item/weapon/fleshlight
 
 /obj/item/weapon/storage/toolbox/lunchbox/rune
 	name = "Rune's Lunchbox"
-	icon_state = "runelunch"
-	item_state_slots = list(slot_r_hand_str = "runelunch", slot_l_hand_str = "runelunch")
+	icon_state = "lunchbox_lovelyhearts"
+	item_state_slots = list(slot_r_hand_str = "lunchbox_lovelyhearts", slot_l_hand_str = "lunchbox_lovelyhearts")
 	desc = "A cute pink lunch box with red hearts."
 
 /obj/item/weapon/storage/toolbox/lunchbox/rune/filled
