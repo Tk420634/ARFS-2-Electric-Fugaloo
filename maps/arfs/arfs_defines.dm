@@ -1,7 +1,7 @@
 #define Z_LEVEL_MAIN_ARFS					1
 #define Z_LEVEL_MINING_ARFS					2
 #define Z_LEVEL_CENTCOM_ARFS				3
-#define Z_LEVEL_HOTEL_ARFS				4
+#define Z_LEVEL_HOTEL_ARFS					4
 #define Z_LEVEL_EMPTY_ARFS					5
 
 
@@ -77,3 +77,8 @@
 							)
 
 	allowed_spawns = list("Cryogenic Storage")
+
+/datum/map/arfs/perform_map_generation()
+	new /datum/random_map/automata/cave_system(null, 1, 1, Z_LEVEL_MINING_ARFS, world.maxx, world.maxy) // Create the mining Z-level.
+	new /datum/random_map/noise/ore(null, 1, 1, Z_LEVEL_MINING_ARFS, world.maxx, world.maxy)         // Create the mining ore distribution map.
+	return 1
