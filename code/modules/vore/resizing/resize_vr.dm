@@ -1,16 +1,16 @@
 
 //these aren't defines so they can stay in this file
-var/const/RESIZE_HUGE = 1.6
-var/const/RESIZE_BIG = 1.3
+var/const/RESIZE_HUGE = 2.0
+var/const/RESIZE_BIG = 1.5
 var/const/RESIZE_NORMAL = 1
-var/const/RESIZE_SMALL = 0.8
-var/const/RESIZE_TINY = 0.6
+var/const/RESIZE_SMALL = 0.75
+var/const/RESIZE_TINY = 0.4
 
 //average
-var/const/RESIZE_A_HUGEBIG = (RESIZE_HUGE + RESIZE_BIG) / 1.23
-var/const/RESIZE_A_BIGNORMAL = (RESIZE_BIG + RESIZE_NORMAL) / 1.3
-var/const/RESIZE_A_NORMALSMALL = (RESIZE_NORMAL + RESIZE_SMALL) / 1.25
-var/const/RESIZE_A_SMALLTINY = (RESIZE_SMALL + RESIZE_TINY) / 1.33
+var/const/RESIZE_A_HUGEBIG = (RESIZE_HUGE + RESIZE_BIG) / 1.3
+var/const/RESIZE_A_BIGNORMAL = (RESIZE_BIG + RESIZE_NORMAL) / 1.5
+var/const/RESIZE_A_NORMALSMALL = (RESIZE_NORMAL + RESIZE_SMALL) / 1.3
+var/const/RESIZE_A_SMALLTINY = (RESIZE_SMALL + RESIZE_TINY) / 1.875
 
 // Adding needed defines to /mob/living
 // Note: Polaris had this on /mob/living/carbon/human We need it higher up for animals and stuff.
