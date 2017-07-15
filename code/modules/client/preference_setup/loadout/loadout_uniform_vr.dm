@@ -1,6 +1,3 @@
-/datum/gear/uniform/suit/permit
-	display_name = "nudity permit"
-	path = /obj/item/clothing/under/permit
 
 //KHI Uniforms
 /datum/gear/uniform/job_khi/cmd
