@@ -10,12 +10,12 @@
 
 /obj/machinery/computer/shuttle_control/attack_hand(user as mob)
 	if(..(user))
+		user << "HM, I THINK THIS MIGHT BE CAUSING THE PROBLEM"
 		return
 	//src.add_fingerprint(user)	//shouldn't need fingerprints just for looking at it.
 	if(!allowed(user))
 		user << "\red Access Denied."
 		return 1
-
 	ui_interact(user)
 
 /obj/machinery/computer/shuttle_control/ui_interact(mob/user, ui_key = "main", var/datum/nanoui/ui = null, var/force_open = 1)

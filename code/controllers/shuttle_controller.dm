@@ -131,59 +131,18 @@ var/global/datum/shuttle_controller/shuttle_controller
 	process_shuttles += shuttle
 	shuttles["Escape Pod 6"] = shuttle
 
-	shuttle = new/datum/shuttle/ferry/escape_pod()
-	shuttle.location = 0
-	shuttle.warmup_time = 0
-	shuttle.area_station = locate(/area/shuttle/cryo/station)
-	shuttle.area_offsite = locate(/area/shuttle/cryo/centcom)
-	shuttle.area_transition = locate(/area/shuttle/cryo/transit)
-	shuttle.docking_controller_tag = "cryostorage_shuttle"
-	shuttle.dock_target_station = "cryostorage_shuttle_berth"
-	shuttle.dock_target_offsite = "cryostorage_shuttle_recovery"
-	shuttle.transit_direction = NORTH //should this be WEST? I have no idea.
-	shuttle.move_time = SHUTTLE_TRANSIT_DURATION_RETURN + rand(-30, 60)	//randomize this so it seems like the pods are being picked up one by one
-	process_shuttles += shuttle
-	shuttles["Cryostorage Shuttle"] = shuttle
-	shuttle = new/datum/shuttle/ferry/escape_pod()
-	shuttle.location = 0
-	shuttle.warmup_time = 0
-	shuttle.area_station = locate(/area/shuttle/large_escape_pod1/station)
-	shuttle.area_offsite = locate(/area/shuttle/large_escape_pod1/centcom)
-	shuttle.area_transition = locate(/area/shuttle/large_escape_pod1/transit)
-	shuttle.docking_controller_tag = "large_escape_pod_1"
-	shuttle.dock_target_station = "large_escape_pod_1_berth"
-	shuttle.dock_target_offsite = "large_escape_pod_1_recovery"
-	shuttle.transit_direction = EAST //should this be WEST? I have no idea.
-	shuttle.move_time = SHUTTLE_TRANSIT_DURATION_RETURN + rand(-30, 60)	//randomize this so it seems like the pods are being picked up one by one
-	process_shuttles += shuttle
-	shuttles["Large Escape Pod 1"] = shuttle
 
-	shuttle = new/datum/shuttle/ferry/escape_pod()
-	shuttle.location = 0
-	shuttle.warmup_time = 0
-	shuttle.area_station = locate(/area/shuttle/large_escape_pod2/station)
-	shuttle.area_offsite = locate(/area/shuttle/large_escape_pod2/centcom)
-	shuttle.area_transition = locate(/area/shuttle/large_escape_pod2/transit)
-	shuttle.docking_controller_tag = "large_escape_pod_2"
-	shuttle.dock_target_station = "large_escape_pod_2_berth"
-	shuttle.dock_target_offsite = "large_escape_pod_2_recovery"
-	shuttle.transit_direction = EAST //should this be WEST? I have no idea.
-	shuttle.move_time = SHUTTLE_TRANSIT_DURATION_RETURN + rand(-30, 60)	//randomize this so it seems like the pods are being picked up one by one
-	process_shuttles += shuttle
-	shuttles["Large Escape Pod 2"] = shuttle
 	//give the emergency shuttle controller it's shuttles
 	emergency_shuttle.shuttle = shuttles["Escape"]
-	emergency_shuttle.escape_pods = list(
+/*	emergency_shuttle.escape_pods = list(
 		shuttles["Escape Pod 1"],
 		shuttles["Escape Pod 2"],
 		shuttles["Escape Pod 3"],
 		shuttles["Escape Pod 4"],
 		shuttles["Escape Pod 5"],
 		shuttles["Escape Pod 6"],
-		shuttles["Cryostorage Shuttle"],
-		shuttles["Large Escape Pod 1"],
-		shuttles["Large Escape Pod 2"],
-	)
+	)*/
+	// TO DO: ADD PODS
 
 	// Supply shuttle
 	shuttle = new/datum/shuttle/ferry/supply()
@@ -220,7 +179,7 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttle.dock_target_offsite = "admin_shuttle_bay"
 	shuttles["Administration"] = shuttle
 	process_shuttles += shuttle
-	VOREStation Removal End */
+	VOREStation Removal End
 	shuttle = new()
 	shuttle.location = 1
 	shuttle.warmup_time = 10	//want some warmup time so people can cancel.
@@ -230,7 +189,8 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttle.dock_target_station = "trade_shuttle_dock_airlock"
 	shuttle.dock_target_offsite = "trade_shuttle_bay"
 	shuttles["Trade"] = shuttle
-	process_shuttles += shuttle
+	process_shuttles += shuttle*/
+	// TO DO: ADD TRADE SHUTTLE
 
 	shuttle = new()
 	shuttle.area_offsite = locate(/area/shuttle/alien/base)
@@ -249,6 +209,8 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttles["Engineering"] = shuttle
 	process_shuttles += shuttle
 
+
+	// mining shuttle
 	shuttle = new()
 	shuttle.warmup_time = 10
 	shuttle.area_offsite = locate(/area/shuttle/mining/outpost)
@@ -259,6 +221,7 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttles["Mining"] = shuttle
 	process_shuttles += shuttle
 
+	//research shuttle
 	shuttle = new()
 	shuttle.warmup_time = 10
 	shuttle.area_offsite = locate(/area/shuttle/research/outpost)

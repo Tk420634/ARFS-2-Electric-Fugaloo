@@ -44,6 +44,31 @@ var/global/datum/shuttle_controller/shuttle_controller
 	shuttle.move_time = SHUTTLE_TRANSIT_DURATION_RETURN
 	shuttles["Escape"] = shuttle
 	process_shuttles += shuttle
+
+	//Public shuttles
+
+	// mining shuttle
+	shuttle = new()
+	shuttle.warmup_time = 10
+	shuttle.area_offsite = locate(/area/shuttle/mining/outpost)
+	shuttle.area_station = locate(/area/shuttle/mining/station)
+	shuttle.docking_controller_tag = "mining_shuttle"
+	shuttle.dock_target_station = "mining_dock_airlock"
+	shuttle.dock_target_offsite = "mining_outpost_airlock"
+	shuttles["Mining"] = shuttle
+	process_shuttles += shuttle
+
+	//research shuttle
+	shuttle = new()
+	shuttle.warmup_time = 10
+	shuttle.area_offsite = locate(/area/shuttle/research/outpost)
+	shuttle.area_station = locate(/area/shuttle/research/station)
+	shuttle.docking_controller_tag = "research_shuttle"
+	shuttle.dock_target_station = "research_dock_airlock"
+	shuttle.dock_target_offsite = "research_outpost_dock"
+	shuttles["Research"] = shuttle
+	process_shuttles += shuttle
+
 /*
 	//////////////////////////////////////////////////////////////
 	shuttle = new/datum/shuttle/ferry/escape_pod()
