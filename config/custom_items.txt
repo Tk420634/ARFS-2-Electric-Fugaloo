@@ -716,6 +716,14 @@ character_name: Wolfy Tubek
 item_path: /obj/item/weapon/soap/cebusoap
 }
 
+# ######## G CKEYS
+
+{
+ckey: gozulio
+character_name: Eira Glitterpaws
+item_path: /obj/item/weapon/cane/whitecane
+}
+
 # ######## K CKEYS
 
 {
@@ -733,6 +741,11 @@ item_path: /obj/item/clothing/under/arroganza
 # ####### R CKEYS
 
 {
+ckey: radarstatic
+item_path: /obj/item/clothing/head/radarhat
+}
+
+{
 ckey: runeguden
 item_path: /obj/toy/plushie/rune
 }
@@ -740,4 +753,11 @@ item_path: /obj/toy/plushie/rune
 {
 ckey: runeguden
 item_path: /obj/item/weapon/storage/toolbox/lunchbox/rune/filled
+}
+
+# ####### T CKEYS
+
+{
+ckey: truedark
+item_path: /obj/item/weapon/katana/nay
 }
