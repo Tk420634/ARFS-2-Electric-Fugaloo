@@ -149,6 +149,21 @@
 
 	feedback_add_details("admin_verb","TAMidis") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
+/client/verb/toggle_vore_sounds()
+	set name = "Toggle Vore Sounds"
+	set category = "Preferences"
+	set desc = "Toggles the playing of sounds related to vore."
+
+	var/pref_path = /datum/client_preference/play_vore_sounds
+
+	toggle_preference(pref_path)
+
+	src << "You will [ (is_preference_enabled(pref_path)) ? "now" : " no longer"] hear vore sounds."
+
+	prefs.save_preferences()
+
+	feedback_add_details("admin_verb","TVoreSound") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
+
 /client/verb/toggle_ambience()
 	set name = "Toggle Ambience"
 	set category = "Preferences"
