@@ -15,7 +15,8 @@
 		teleatom.forceMove(destination.loc)
 		playSpecials(destination,effectout,soundout)
 		target_belly.internal_contents += teleatom
-		playsound(destination, target_belly.vore_sound, 100, 1)
+		if(target_belly.owner.is_preference_enabled(/datum/client_preference/play_vore_sounds))
+			playsound(destination, target_belly.vore_sound, 100, 1)
 		return 1
 
 	//No fun!

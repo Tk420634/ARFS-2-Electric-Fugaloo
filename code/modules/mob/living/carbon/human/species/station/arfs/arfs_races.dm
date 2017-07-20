@@ -211,7 +211,7 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-
+/*
 /datum/species/cow
 	name = "Cow"
 	name_plural = "cows"
@@ -227,7 +227,7 @@
 	num_alternate_languages = 3
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
+*/
 /datum/species/coyote
 	name = "Coyote"
 	name_plural = "coyotes"
@@ -952,7 +952,7 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-
+/*
 /datum/species/shepard
 	name = "Shepard"
 	name_plural = "shepards"
@@ -968,7 +968,7 @@
 	num_alternate_languages = 3
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
+*/
 
 /datum/species/shihtzu
 	name = "Shihtzu"
@@ -1073,7 +1073,7 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 
-
+/*
 /datum/species/stitch
 	name = "Stich"
 	name_plural = "stiches"
@@ -1089,7 +1089,7 @@
 	num_alternate_languages = 3
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
+*/
 
 /datum/species/squirrel
 	name = "Squirrel"

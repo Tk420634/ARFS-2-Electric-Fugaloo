@@ -70,7 +70,7 @@ var/global/list/death_sounds = list(
 		'sound/vore/death10.ogg')
 
 var/global/list/vore_sounds = list(
-		"Gulp" = 'sound/vore/gulp.ogg',
+/*		"Gulp" = 'sound/vore/gulp.ogg',
 		"Insert" = 'sound/vore/insert.ogg',
 		"Insertion1" = 'sound/vore/insertion1.ogg',
 		"Insertion2" = 'sound/vore/insertion2.ogg',
@@ -80,7 +80,7 @@ var/global/list/vore_sounds = list(
 		"Squish2" = 'sound/vore/squish2.ogg',
 		"Squish3" = 'sound/vore/squish3.ogg',
 		"Squish4" = 'sound/vore/squish4.ogg',
-		"Rustle (cloth)" = 'sound/effects/rustle5.ogg',
+		"Rustle (cloth)" = 'sound/effects/rustle5.ogg',*/ // TODO: TOGGLE MUTE
 		"None" = null)
 
 var/global/list/struggle_sounds = list(
