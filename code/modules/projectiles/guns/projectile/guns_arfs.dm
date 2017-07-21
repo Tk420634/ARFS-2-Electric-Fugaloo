@@ -453,7 +453,7 @@
 	else
 		icon_state = "tokarev-e"
 
-/obj/item/weapon/gun/projectile/tokarev/black
+/obj/item/weapon/gun/projectile/tokarev2
 	name = "Vice"
 	desc = "It's a black Romanian Tokarev TT pistol. It has wooden grip panels that're colored maroon, and an inscription on the slide that simply says 'Vice'. There is no serial number or any identification. Uses 7.62x25mm TT."
 	icon = 'icons/obj/gun_arfs.dmi'
