@@ -31,15 +31,20 @@ Admin Observer
 Moderator		+MOD
 Mentor                  +MENTOR
 
+Desert Pickle   +ADMIN
 Admin Candidate	+ADMIN
 Trial Admin		+@ +SPAWN +REJUV +VAREDIT +BAN
 Badmin			+@ +POSSESS +BUILDMODE +SERVER +FUN
 Game Admin		+@ +STEALTH +SOUNDS +DEBUG +PERMISSIONS
+Awoo Game Admin +@
+Cat Butt Admin +@
 Game Master		+EVERYTHING
 Head Admin		+EVERYTHING
 Retired Admin	+ADMIN +STEALTH
 
 Host			+EVERYTHING
+Hostess   +EVERYTHING
+Head Developer  +EVERYTHING
 
-Developer		+DEBUG +VAREDIT +SERVER +SPAWN +REJUV +POSSESS +BUILDMODE
+Developer		+DEBUG +VAREDIT +SERVER +SPAWN +REJUV +POSSESS +BUILDMODE +SOUND +FUN +ADMIN
 Dev Mod			+@ +MOD

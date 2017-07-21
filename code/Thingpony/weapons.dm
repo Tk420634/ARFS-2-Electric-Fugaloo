@@ -149,6 +149,7 @@ obj/item/weapon/fleshlight
 	item_state = "naykatana"
 	item_state_slots = list(slot_r_hand_str = "naykatana", slot_l_hand_str = "naykatana")
 	force = 0
+	slot_flags = SLOT_BELT
 	throwforce = 0
 	attack_verb = list("bapped", "wacked", "bonked")
 
@@ -172,6 +173,7 @@ obj/item/weapon/fleshlight
 		"<span class='warning'>You extend the white cane.</span>",\
 		"You hear an ominous click.")
 		icon_state = "goz_whitecane_1"
+		item_state_slots = list(slot_r_hand_str = "goz_whitecane", slot_l_hand_str = "goz_whitecane")
 		w_class = ITEMSIZE_NORMAL
 		force = 15//quite robust
 		attack_verb = list("smacked", "struck", "craked", "beaten", "tripped")
@@ -222,7 +224,7 @@ obj/item/weapon/fleshlight
 		return ..()
 
 	//Runeguden
-
+/* Coding this out for now, no sprite for it.
 /obj/toy/plushie/rune
 	name = "Rune Plush"
 	desc = "A cute plushie of a small grey slime."
@@ -230,7 +232,7 @@ obj/item/weapon/fleshlight
 	icon_state = "rune"
 	anchored = 0
 	density = 1
-
+*/
 	//Runeguden
 
 /obj/item/weapon/storage/toolbox/lunchbox/rune
@@ -241,3 +243,26 @@ obj/item/weapon/fleshlight
 
 /obj/item/weapon/storage/toolbox/lunchbox/rune/filled
 	filled = TRUE
+
+	//Cebutris
+
+/obj/item/device/pda/awoo
+	icon_state = "pda-awoo"
+	desc = "An adorable wolf PDA. Looking at it makes you want to Awoo.."
+
+	//Thingpony
+
+/obj/item/device/pda/fox
+	icon_state = "pda-fox"
+	desc = "An adorable fox PDA."
+
+	//Malamarissa
+
+/obj/item/weapon/foam/huntersaxe
+	name = "Hunting Axe"
+	attack_verb = list("bonked","whacked")
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "huntersaxe"
+	item_state_slots = list(slot_r_hand_str = "huntersaxe", slot_l_hand_str = "huntersaxe")
+	desc = "One of the trick weapons of the workshop, commonly used on the hunt. Retains the qualities of an axe, but offers a wider palette of attacks by transforming. Boasts a heavy blunt attack, leading to high rally potential. No matter their pasts, beasts are no more than beasts. Some choose this axe to play the part of executioner."
+	slot_flags = SLOT_BACK

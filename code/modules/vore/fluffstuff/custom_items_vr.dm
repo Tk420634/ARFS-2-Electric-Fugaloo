@@ -973,7 +973,8 @@ obj/item/weapon/material/hatchet/tacknife/combatknife/fluff/katarina/handle_shie
 	if(target_belly)
 		real_dest = destination.loc
 		target_belly.internal_contents |= target
-		playsound(target_belly.owner, target_belly.vore_sound, 100, 1)
+		if(target.is_preference_enabled(/datum/client_preference/play_vore_sounds) || target_belly.owner.is_preference_enabled(/datum/client_preference/play_vore_sounds))
+			playsound(target_belly.owner, target_belly.vore_sound, 100, 1)
 		to_chat(target,"<span class='warning'>\The [src] teleports you right into [target_belly.owner]'s [target_belly.name]!</span>")
 		to_chat(target_belly.owner,"<span class='warning'>Your [target_belly.name] suddenly has a new occupant!</span>")
 
@@ -1080,4 +1081,5 @@ obj/item/weapon/material/hatchet/tacknife/combatknife/fluff/katarina/handle_shie
 				src.forceMove(user)
 				B.internal_contents |= src
 				user.visible_message("<span class='warning'>[user] eats a telebeacon!</span>","You eat the the beacon!")
-				playsound(user, B.vore_sound, 70, 1)
+				if(user.is_preference_enabled(/datum/client_preference/play_vore_sounds))
+					playsound(user, B.vore_sound, 70, 1)

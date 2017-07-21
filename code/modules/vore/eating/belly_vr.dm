@@ -11,7 +11,7 @@
 /datum/belly
 	var/name								// Name of this location
 	var/inside_flavor						// Flavor text description of inside sight/sound/smells/feels.
-	var/vore_sound = 'sound/vore/gulp.ogg'	// Sound when ingesting someone
+	var/vore_sound = null					// Sound when ingesting someone
 	var/vore_verb = "ingest"				// Verb for eating with this in messages
 	var/human_prey_swallow_time = 100		// Time in deciseconds to swallow /mob/living/carbon/human
 	var/nonhuman_prey_swallow_time = 30		// Time in deciseconds to swallow anything else
@@ -392,7 +392,8 @@
 
 	var/strpick = pick(struggle_sounds)
 	var/strsound = struggle_sounds[strpick]
-	playsound(R.loc, strsound, 50, 1)
+	if(R.is_preference_enabled(/datum/client_preference/play_vore_sounds))
+		playsound(R.loc, strsound, 50, 1)
 
 	if(escapable) //If the stomach has escapable enabled.
 		R << "<span class='warning'>You attempt to climb out of \the [name].</span>"

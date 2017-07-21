@@ -87,6 +87,10 @@ var/list/_client_preferences_by_type
 	else
 		preference_mob.update_music()
 
+/datum/client_preference/play_vore_sounds
+	description ="Play Vore Sounds"
+	key = "SOUND_VORE"
+
 /datum/client_preference/ghost_ears
 	description ="Ghost ears"
 	key = "CHAT_GHOSTEARS"
