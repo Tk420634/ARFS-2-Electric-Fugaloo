@@ -39,7 +39,7 @@
 	var/secured_wires = 0
 	var/datum/wires/airlock/wires = null
 
-	var/open_sound_powered = 'sound/machines/airlock.ogg'
+	var/open_sound_powered = 'sound/machines/airlockopen.ogg'
 	var/open_sound_unpowered = 'sound/machines/airlock_creaking.ogg'
 
 /obj/machinery/door/airlock/attack_generic(var/mob/user, var/damage)
@@ -957,7 +957,7 @@ About the new airlock wires panel:
 
 	//if the door is unpowered then it doesn't make sense to hear the woosh of a pneumatic actuator
 	if(arePowerSystemsOn())
-		playsound(src.loc, open_sound_powered, 75, 1)
+		playsound(src.loc, open_sound_powered, 75)
 	else
 		playsound(src.loc, open_sound_unpowered, 75, 1)
 
