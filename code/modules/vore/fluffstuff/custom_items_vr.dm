@@ -431,6 +431,7 @@ obj/item/weapon/material/hatchet/tacknife/combatknife/fluff/katarina/handle_shie
 	species_restricted = null //Species restricted since all it cares about is a taur half
 	icon_override = 'icons/mob/taursuits_vr.dmi' //Needs to be this since it's 64*32
 	icon_state = "serdy_armor"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS
 	mob_can_equip(var/mob/living/carbon/human/H, slot, disable_warning = 0)
 		if(istype(H) && istype(H.tail_style, /datum/sprite_accessory/tail/taur/wolf))
 			icon_override = 'icons/mob/taursuits_vr.dmi' //Just in case
@@ -451,17 +452,17 @@ obj/item/weapon/material/hatchet/tacknife/combatknife/fluff/katarina/handle_shie
 	item_state = "serdyhelm_mob"
 
 //SilencedMP5A5:Serdykov Antoz
-/obj/item/device/modkit_conversion/fluff/serdykit
-	name = "Serdykov's armor modification kit"
-	desc = "A kit containing all the needed tools and parts to modify a armor vest and helmet for a specific user. This one looks like it's fitted for a wolf-taur."
-
-	icon = 'icons/vore/custom_items_vr.dmi'
-	icon_state = "modkit"
-
-	from_helmet = /obj/item/clothing/head/helmet
-	from_suit = /obj/item/clothing/suit/armor/vest/wolftaur
-	to_helmet = /obj/item/clothing/head/helmet/serdy
-	to_suit = /obj/item/clothing/suit/armor/vest/wolftaur/serdy
+///obj/item/device/modkit_conversion/fluff/serdykit
+//	name = "Serdykov's armor modification kit"
+//	desc = "A kit containing all the needed tools and parts to modify a armor vest and helmet for a specific user. This one looks like it's fitted for a wolf-taur."
+//
+//	icon = 'icons/vore/custom_items_vr.dmi'
+//	icon_state = "modkit"
+//
+//	from_helmet = /obj/item/clothing/head/helmet
+//	from_suit = /obj/item/clothing/suit/armor/vest/wolftaur
+//	to_helmet = /obj/item/clothing/head/helmet/serdy
+//	to_suit = /obj/item/clothing/suit/armor/vest/wolftaur/serdy
 
 //Lots of people are using this now.
 /obj/item/clothing/accessory/collar/khcrystal
@@ -973,8 +974,7 @@ obj/item/weapon/material/hatchet/tacknife/combatknife/fluff/katarina/handle_shie
 	if(target_belly)
 		real_dest = destination.loc
 		target_belly.internal_contents |= target
-		if(target.is_preference_enabled(/datum/client_preference/play_vore_sounds) || target_belly.owner.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-			playsound(target_belly.owner, target_belly.vore_sound, 100, 1)
+		playsound(target_belly.owner, target_belly.vore_sound, 100, 1)
 		to_chat(target,"<span class='warning'>\The [src] teleports you right into [target_belly.owner]'s [target_belly.name]!</span>")
 		to_chat(target_belly.owner,"<span class='warning'>Your [target_belly.name] suddenly has a new occupant!</span>")
 
@@ -1081,5 +1081,4 @@ obj/item/weapon/material/hatchet/tacknife/combatknife/fluff/katarina/handle_shie
 				src.forceMove(user)
 				B.internal_contents |= src
 				user.visible_message("<span class='warning'>[user] eats a telebeacon!</span>","You eat the the beacon!")
-				if(user.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-					playsound(user, B.vore_sound, 70, 1)
+				playsound(user, B.vore_sound, 70, 1)
