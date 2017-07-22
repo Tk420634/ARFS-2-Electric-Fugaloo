@@ -162,7 +162,7 @@ obj/item/weapon/fleshlight
 	icon_state = "goz_whitecane_0"
 	slot_flags = SLOT_BELT
 	w_class = ITEMSIZE_SMALL
-	force = 3
+	force = 0
 //	var/on = 0
 
 
@@ -175,7 +175,7 @@ obj/item/weapon/fleshlight
 		icon_state = "goz_whitecane_1"
 		item_state_slots = list(slot_r_hand_str = "goz_whitecane", slot_l_hand_str = "goz_whitecane")
 		w_class = ITEMSIZE_NORMAL
-		force = 15//quite robust
+		force = 0
 		attack_verb = list("smacked", "struck", "craked", "beaten", "tripped")
 	else
 		user.visible_message("<span class='notice'>\The [user] collapses their cane.</span>",\
@@ -266,3 +266,4 @@ obj/item/weapon/fleshlight
 	item_state_slots = list(slot_r_hand_str = "huntersaxe", slot_l_hand_str = "huntersaxe")
 	desc = "One of the trick weapons of the workshop, commonly used on the hunt. Retains the qualities of an axe, but offers a wider palette of attacks by transforming. Boasts a heavy blunt attack, leading to high rally potential. No matter their pasts, beasts are no more than beasts. Some choose this axe to play the part of executioner."
 	slot_flags = SLOT_BACK
+
