@@ -1098,7 +1098,7 @@
 "vf" = (/obj/effect/floor_decal/corner/orange/full{dir = 8},/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
 "vg" = (/obj/effect/floor_decal/corner/orange{dir = 5},/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
 "vh" = (/obj/machinery/atmospherics/pipe/simple/hidden,/obj/machinery/access_button/airlock_interior{frequency = 1377; master_tag = "mcontrol"; pixel_x = 26; pixel_y = 26; req_access = list(48)},/obj/effect/floor_decal/corner/orange{dir = 5},/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
-"vi" = (/obj/machinery/portable_atmospherics/canister/air/airlock,/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/corner/orange{dir = 5},/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
+"vi" = (/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/corner/orange{dir = 5},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
 "vj" = (/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/corner/orange{dir = 5},/obj/machinery/camera/network/mining{c_tag = "OPM - Mining Airlock 1"},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
 "vk" = (/obj/machinery/mech_recharger,/obj/effect/floor_decal/corner/orange{dir = 5},/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
 "vl" = (/obj/structure/dispenser/oxygen,/obj/effect/floor_decal/corner/orange/full{dir = 1},/turf/simulated/floor/tiled,/area/outpost/mining_main/eva)
