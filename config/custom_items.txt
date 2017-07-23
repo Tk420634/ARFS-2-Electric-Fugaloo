@@ -508,19 +508,7 @@ item_path: /obj/item/clothing/glasses/sunglasses/fluff/alfonso
 {
 ckey: silencedmp5a5
 character_name: Serdykov Antoz
-item_path: /obj/item/device/modkit_conversion/fluff/serdykit
-}
-
-{
-ckey: silencedmp5a5
-character_name: Serdykov Antoz
-item_path: /obj/item/weapon/gun/projectile/revolver/detective/fluff/serdy
-}
-
-{
-ckey: silencedmp5a5
-character_name: Serdykov Antoz
-item_path: /obj/item/fluff/permit/silencedmp5a5
+item_path: /obj/item/weapon/storage/box/fluff/serdy
 }
 
 {
@@ -716,25 +704,6 @@ character_name: Wolfy Tubek
 item_path: /obj/item/weapon/soap/cebusoap
 }
 
-{
-ckey: cebutris
-character_name: Wolfy Tubek
-item_path: /obj/item/device/pda/awoo
-}
-
-{
-ckey: chokinandtokin
-item_path: /obj/item/clothing/mask/breath/tenticlebeard
-}
-
-# ######## G CKEYS
-
-{
-ckey: gozulio
-character_name: Eira Glitterpaws
-item_path: /obj/item/weapon/cane/whitecane/goz
-}
-
 # ######## K CKEYS
 
 {
@@ -752,11 +721,6 @@ item_path: /obj/item/clothing/under/arroganza
 # ####### R CKEYS
 
 {
-ckey: radarstatic
-item_path: /obj/item/clothing/head/radarhat
-}
-
-{
 ckey: runeguden
 item_path: /obj/toy/plushie/rune
 }
@@ -764,22 +728,4 @@ item_path: /obj/toy/plushie/rune
 {
 ckey: runeguden
 item_path: /obj/item/weapon/storage/toolbox/lunchbox/rune/filled
-}
-
-# ####### T CKEYS
-
-
-{
-ckey: tk420634
-item_path: /obj/item/clothing/head/turkeyhat
-}
-
-{
-ckey: thingpony
-item_path: /obj/item/device/pda/fox
-}
-
-{
-ckey: truedark
-item_path: /obj/item/weapon/katana/nay
 }
