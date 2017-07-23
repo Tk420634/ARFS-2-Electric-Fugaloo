@@ -191,6 +191,15 @@
 		/obj/item/weapon/gun/projectile/derringer,
 		/obj/item/fluff/permit/briana_moore)
 
+/obj/item/weapon/storage/box/fluff/serdy
+	name = "Serdykov's `box of stuff`"
+	has_items = list(
+		/obj/item/weapon/gun/projectile/revolver/detective/fluff/serdy,
+		/obj/item/ammo_magazine/c38/rubber,
+		/obj/item/ammo_magazine/c38/rubber,
+		/obj/item/fluff/permit/silencedmp5a5,
+		/obj/item/clothing/head/helmet/serdy,
+		/obj/item/clothing/suit/armor/vest/wolftaur/serdy)
 
 /*
 Swimsuits, for general use, to avoid arriving to work with your swimsuit.
