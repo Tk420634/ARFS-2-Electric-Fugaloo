@@ -22,3 +22,10 @@
 
 /obj/item/clothing/shoes/magboots/rig/breacher/andy
 	species_restricted = list("Unathi")
+
+	//Gozulio
+/obj/item/clothing/suit/radiation/gozu
+	name = "A.R.F Engineering Officers Radiation Suit"
+	desc = "An A.R.F. Engineering Corp officers radiation suit, for working around hazardous radioactive materials. This one has \"Glitterpaws\" writen on its back and with A.R.F. Insignia on its front"
+	icon_state = "gozrad"
+	item_state = "gozrad"
