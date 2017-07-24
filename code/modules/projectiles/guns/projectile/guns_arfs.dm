@@ -453,14 +453,14 @@
 	else
 		icon_state = "tokarev-e"
 
-/obj/item/weapon/gun/projectile/tokarev2
+/obj/item/weapon/gun/projectile/vice
 	name = "Vice"
 	desc = "It's a black Romanian Tokarev TT pistol. It has wooden grip panels that're colored maroon, and an inscription on the slide that simply says 'Vice'. There is no serial number or any identification. Uses 7.62x25mm TT."
 	icon = 'icons/obj/gun_arfs.dmi'
 	fire_delay = 0
 	move_delay = 0
 	icon_state = "btokarev"
-	item_state = "btokarev"
+	item_state = "tokarev"
 	item_icons = list(
 		slot_l_hand_str = 'icons/mob/items/lefthand_guns_arfs.dmi',
 		slot_r_hand_str = 'icons/mob/items/righthand_guns_arfs.dmi',
@@ -475,7 +475,7 @@
 	load_method = MAGAZINE
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 4)
 
-/obj/item/weapon/gun/projectile/tokarev/update_icon()
+/obj/item/weapon/gun/projectile/vice/update_icon()
 	..()
 	if(ammo_magazine)
 		icon_state = "btokarev"
@@ -522,7 +522,11 @@
 	icon = 'icons/obj/gun_arfs.dmi'
 	icon_state = "eshotgun100"
 	item_state = "bullpup"
+	burst = 10
+	burst_delay = 0
+	projectile_type = /obj/item/projectile/beam/shotgun
 	modifystate = "eshotgun"
+	fire_sound='sound/weapons/lasercannonfire.ogg'
 	charge_cost = 25
 	force = 15
 	w_class = ITEMSIZE_NORMAL
@@ -561,6 +565,62 @@
 		list(mode_name="kill", projectile_type=/obj/item/projectile/beam/xray, charge_cost = 200),
 		list(mode_name="disable", projectile_type=/obj/item/projectile/beam/disable/retro, charge_cost = 100),
 		)
+
+/obj/item/weapon/gun/energy/captain/wkcpistol
+	name = "WKC-CBCP-E"
+	desc = "Like it's non-energy counterpart, this weapon has a silver finish and a comfortable grip. It fires highly concentrated blasts of energy to kill, or stun. Very powerful. Clearly intended for someone higher up, it's manufactured by White Kryten Cybernetics."
+	icon = 'icons/obj/gun_arfs.dmi'
+	icon_state = "ejssr"
+	item_icons = list(
+		slot_l_hand_str = 'icons/mob/items/lefthand_guns_arfs.dmi',
+		slot_r_hand_str = 'icons/mob/items/righthand_guns_arfs.dmi',
+		)
+	item_state = "tokarev"
+	force = 5
+	slot_flags = SLOT_BELT
+	w_class = ITEMSIZE_SMALL
+	fire_sound = 'sound/weapons/lasercannonfire.ogg'
+	projectile_type = /obj/item/projectile/beam/wkcstrong
+	origin_tech = null
+	fire_delay = 0
+	charge_cost = 2400
+	self_recharge = 1
+	recharge_time = 5
+	charge_delay = 50
+	firemodes = list(
+		list(mode_name="HP-lethal (WARNING, VERY DANGEROUS)", projectile_type=/obj/item/projectile/beam/wkcstrong, 'sound/effects/supermatter.ogg', charge_cost = 2400), //YOU ONLY GET ONE SHOT.
+		list(mode_name="LP-lethal", projectile_type=/obj/item/projectile/beam/xray, fire_sound='sound/weapons/Laser3.ogg', charge_cost = 200),
+		list(mode_name="disable", projectile_type=/obj/item/projectile/beam/disable/retro, fire_sound='sound/weapons/eLuger.ogg', charge_cost = 100),
+		)
+
+/obj/item/weapon/gun/projectile/wkcpistol
+	name = "WKC-CBCP .454"
+	desc = "It's a unique handgun, with a comfy grip, crisp action, and polished silver finish. Clearly intended for someone higher up, it's manufactured by White Kryten Cybernetics. Uses .454 Casull."
+	icon = 'icons/obj/gun_arfs.dmi'
+	fire_delay = 0
+	move_delay = 0
+	icon_state = "jssr"
+	item_state = "tokarev"
+	item_icons = list(
+		slot_l_hand_str = 'icons/mob/items/lefthand_guns_arfs.dmi',
+		slot_r_hand_str = 'icons/mob/items/righthand_guns_arfs.dmi',
+		)
+	w_class = ITEMSIZE_SMALL
+	fire_sound = 'sound/weapons/deagle.ogg'
+
+	caliber = ".454"
+	ammo_type = /obj/item/ammo_casing/a454
+	magazine_type = /obj/item/ammo_magazine/a454
+	allowed_magazines = list(/obj/item/ammo_magazine/a454, /obj/item/ammo_magazine/a454/rubber, /obj/item/ammo_magazine/a454/ap)
+	load_method = MAGAZINE
+	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 4)
+
+/obj/item/weapon/gun/projectile/wkcpistol/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "jssr"
+	else
+		icon_state = "jssr-e"
 
 //ammo and magazines. or dakka points and dakka point containers, if you're autistic.
 
@@ -865,3 +925,72 @@
 	muzzle_type = /obj/effect/projectile/laser_omni/muzzle
 	tracer_type = /obj/effect/projectile/laser_omni/tracer
 	impact_type = /obj/effect/projectile/laser_omni/impact
+
+/obj/item/ammo_magazine/a454
+	name = "magazine (.454 Casull)"
+	icon = 'icons/obj/ammo_arfs.dmi'
+	icon_state = "9x39"
+	caliber = ".454"
+	w_class = ITEMSIZE_TINY
+	ammo_type = /obj/item/ammo_casing/a454
+	max_ammo = 10
+	mag_type = MAGAZINE
+
+/obj/item/ammo_magazine/a454/ap
+	name = "magazine (.454 Casull AP)"
+	icon = 'icons/obj/ammo_arfs.dmi'
+	icon_state = "9x39"
+	caliber = ".454"
+	w_class = ITEMSIZE_TINY
+	ammo_type = /obj/item/ammo_casing/a454/ap
+	max_ammo = 10
+	mag_type = MAGAZINE
+
+/obj/item/ammo_magazine/a454/rubber
+	name = "magazine (.454 Casull rubber)"
+	icon = 'icons/obj/ammo_arfs.dmi'
+	icon_state = "9x39"
+	caliber = ".454"
+	w_class = ITEMSIZE_TINY
+	ammo_type = /obj/item/ammo_casing/a454/rubber
+	max_ammo = 10
+	mag_type = MAGAZINE
+
+/obj/item/ammo_casing/a454
+	desc = "A .454 casing."
+	icon_state = "s-casing"
+	caliber = ".454"
+	projectile_type = /obj/item/projectile/bullet/pistol/mild
+
+/obj/item/ammo_casing/a454/rubber
+	desc = "A .454 rubber casing."
+	icon_state = "r-casing"
+	caliber = ".454"
+	projectile_type = /obj/item/projectile/bullet/rubber/akm
+
+/obj/item/ammo_casing/a454/ap
+	desc = "A .454 AP casing."
+	icon_state = "s-casing"
+	caliber = ".454"
+	projectile_type = /obj/item/projectile/bullet/pistol/mild/ap
+
+/obj/item/projectile/bullet/pistol/mild/ap
+	damage = 45
+	armor_penetration = 30
+
+/obj/item/projectile/bullet/pistol/mild //for the .454 Casull
+	damage = 50
+
+/obj/item/projectile/beam/wkcstrong
+	name = "hyper-condensed energy blast"
+	damage = 90
+	light_range = 3
+	light_power = 1
+	light_color = "#8C0AFF"
+	armor_penetration = 1000
+	icon_state = "omnilaser"
+	muzzle_type = /obj/effect/projectile/darkmatter/muzzle
+	tracer_type = /obj/effect/projectile/darkmatter/tracer
+	impact_type = /obj/effect/projectile/darkmatter/impact
+
+
