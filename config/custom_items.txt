@@ -729,3 +729,16 @@ item_path: /obj/toy/plushie/rune
 ckey: runeguden
 item_path: /obj/item/weapon/storage/toolbox/lunchbox/rune/filled
 }
+
+# ####### T CKEYS
+{
+ckey: technicalmagi
+character_name: Naomi Reids
+item_path: /obj/item/clothing/under/bb/sweater/worn
+}
+
+{
+ckey: technicalmagi
+character_name: Naomi Reids
+item_path: /obj/item/clothing/accessory/collar/bell/naomi
+}
