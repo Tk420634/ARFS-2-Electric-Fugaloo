@@ -40,6 +40,7 @@
 	var/datum/wires/airlock/wires = null
 
 	var/open_sound_powered = 'sound/machines/airlockopen.ogg'
+	var/close_sound_powered = 'sound/machines/airlockclose.ogg'
 	var/open_sound_unpowered = 'sound/machines/airlock_creaking.ogg'
 
 /obj/machinery/door/airlock/attack_generic(var/mob/user, var/damage)
@@ -149,6 +150,7 @@
 	icon = 'icons/obj/doors/Doorglass.dmi'
 	hitsound = 'sound/effects/Glasshit.ogg'
 	open_sound_powered = 'sound/machines/windowdoor.ogg'
+	close_sound_powered = 'sound/machines/windowdoor.ogg'
 	maxhealth = 300
 	explosion_resistance = 5
 	opacity = 0
@@ -1054,7 +1056,7 @@ About the new airlock wires panel:
 	use_power(360)	//360 W seems much more appropriate for an actuator moving an industrial door capable of crushing people
 	has_beeped = 0
 	if(arePowerSystemsOn())
-		playsound(src.loc, open_sound_powered, 75, 1)
+		playsound(src.loc, close_sound_powered, 75)
 	else
 		playsound(src.loc, open_sound_unpowered, 75, 1)
 	for(var/turf/turf in locs)

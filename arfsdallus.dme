@@ -2099,6 +2099,7 @@
 #include "code\modules\projectiles\guns\projectile\automatic_vr.dm"
 #include "code\modules\projectiles\guns\projectile\boltaction.dm"
 #include "code\modules\projectiles\guns\projectile\dartgun.dm"
+#include "code\modules\projectiles\guns\projectile\guns_arfs.dm"
 #include "code\modules\projectiles\guns\projectile\pistol.dm"
 #include "code\modules\projectiles\guns\projectile\pistol_vr.dm"
 #include "code\modules\projectiles\guns\projectile\revolver.dm"
