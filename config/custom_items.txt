@@ -697,11 +697,30 @@ character_name: Agalon Isaman
 item_path: /obj/item/clothing/accessory/watch
 }
 
+{
+ckey: andyman105
+item_path: /obj/item/device/communicator/andy
+}
+
 # ######## C CKEYS
 {
 ckey: cebutris
 character_name: Wolfy Tubek
 item_path: /obj/item/weapon/soap/cebusoap
+}
+
+# ######## G CKEYS
+{
+ckey: gozulio
+character_name: Jessie Glitterpaws
+item_path: /obj/item/clothing/suit/radiation/gozu
+}
+
+{
+ckey: gozulio
+character_name: Jessie Glitterpaws
+req_access: 11
+item_path: /obj/item/clothing/head/radiation/gozu
 }
 
 # ######## K CKEYS

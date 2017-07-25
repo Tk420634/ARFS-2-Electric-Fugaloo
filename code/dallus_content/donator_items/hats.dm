@@ -11,3 +11,10 @@
 	desc = "The masked Turkler rises again!"
 	icon_state = "turkler"
 	item_state = "turkler"
+
+	//Gozulio
+/obj/item/clothing/head/radiation/gozu
+	name = "A.R.F Engineering Officers Radiation Hood"
+	desc = "An A.R.F. Engineering Corp officers radiation hood, for working around hazardous radioactive materials."
+	icon_state = "gozrad"
+	item_state = "gozrad"
