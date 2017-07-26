@@ -457,6 +457,7 @@
 
 /obj/item/weapon/gun/projectile/lugeralt
 	name = "P08 Luger"
+	icon = 'icons/obj/gun_arfs.dmi'
 	desc = "A legitimate, non-reproduction P08 luger, from Nazi Germany. Perfect for a military officer. Uses 9mm rounds."
 	icon_state = "p08"
 	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2)
@@ -469,9 +470,9 @@
 /obj/item/weapon/gun/projectile/lugeralt/update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "[initial(icon_state)]"
+		icon_state = "luger"
 	else
-		icon_state = "[initial(icon_state)]-e"
+		icon_state = "luger-e"
 
 /obj/item/weapon/gun/projectile/automatic/m4a1
 	name = "M4A1"
