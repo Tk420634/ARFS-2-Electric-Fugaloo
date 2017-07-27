@@ -7,7 +7,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Colony Director"
+	supervisors = "the Captain"
 	selection_color = "#7F6E2C"
 	idtype = /obj/item/weapon/card/id/engineering/head
 	req_admin_notify = 1
