@@ -20,3 +20,9 @@
 /obj/item/clothing/under/bb/sweater/worn
 	name = "frayed black sweater"
 	desc = "A well-loved black sweater, slightly frayed at the edges. It's been obviously re-stitched a few times, but looks like it was treated with care."
+
+	//VictiniLover
+/obj/item/clothing/under/tiedye
+	name = "A tie-dyed shirt"
+	desc = "A vibrant tie-dyed shirt! Looks perfect for a small fennec"
+	icon_state = "tiedye"
