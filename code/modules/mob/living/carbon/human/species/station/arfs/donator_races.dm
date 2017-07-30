@@ -76,7 +76,7 @@
 	ckeyrestricted = "killbow"
 
 
-
+/*
 // RENAMON RACE
 /datum/species/renamon
 	name = "Renamon"
@@ -103,7 +103,7 @@
 
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR //No skin color, use patterns.
-
+*/
 
 
 
@@ -223,6 +223,7 @@
 
 	ckeyrestricted = "alex123890"
 
+/*
 // MING RACE - Restricted to Tk420634
 /datum/species/ming
 	name = "Ming"
@@ -250,7 +251,7 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_SKIN_COLOR
 
 	ckeyrestricted = "tk420634"
-
+*/
 
 // SUBTERANEAN SLIME RACE - Restricted to Runeguden
 /datum/species/rune
