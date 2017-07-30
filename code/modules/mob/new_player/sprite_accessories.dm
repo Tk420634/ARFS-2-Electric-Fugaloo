@@ -1310,3 +1310,51 @@
 		icon_state = "default"
 		icon = 'icons/mob/human_races/r_skrell.dmi'
 		species_allowed = list("Skrell")
+
+
+// ARFS Markings for donator races, here for now.
+
+/datum/sprite_accessory/marking/arfs
+	icon = 'icons/mob/human_races/markings_arfs.dmi'
+	do_colouration = 1
+	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_L_LEG,BP_R_LEG,BP_L_ARM,BP_R_ARM,BP_L_HAND,BP_R_HAND,BP_TORSO,BP_GROIN,BP_HEAD)
+
+
+	flareon_m_1
+		name = "Flareon Layer 1 M"
+		icon = 'icons/mob/human_races/markings_arfs.dmi'
+		icon_state = "m_flareon_1"
+		species_allowed = list("Flareon")
+
+	flareon_m_2
+		name = "Flareon Layer 2 M"
+		icon = 'icons/mob/human_races/markings_arfs.dmi'
+		icon_state = "m_flareon_2"
+		species_allowed = list("Flareon")
+
+	flareon_f_1
+		name = "Flareon Layer 1 F"
+		icon = 'icons/mob/human_races/markings_arfs.dmi'
+		icon_state = "f_flareon_1"
+		species_allowed = list("Flareon")
+
+	flareon_f_2
+		name = "Flareon Layer 2 F"
+		icon = 'icons/mob/human_races/markings_arfs.dmi'
+		icon_state = "f_flareon_2"
+		species_allowed = list("Flareon")
+
+
+
+	lugia_m_1
+		name = "Lugia Layer 1 M"
+		icon = 'icons/mob/human_races/markings_arfs.dmi'
+		icon_state = "malelugia1"
+		species_allowed = list("Lugia")
+
+	lugia_m_2
+		name = "Lugia Layer 2 M"
+		icon = 'icons/mob/human_races/markings_arfs.dmi'
+		icon_state = "malelugia2"
+		species_allowed = list("Lugia")
+
