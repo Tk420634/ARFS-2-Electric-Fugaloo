@@ -379,7 +379,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/carbine/fluff/g44/update_icon(var/ignore_inhands)
 	..()
-	// TODO - Fix this for spriting different size magazines	
+	// TODO - Fix this for spriting different size magazines
 	icon_state = (ammo_magazine)? "g44" : "g44-empty"
 	item_state = (ammo_magazine)? "bullpup" : "bullpup-empty"
 	if(!ignore_inhands) update_held_icon()
@@ -996,7 +996,8 @@
 	projectile_type = /obj/item/projectile/bullet/pistol
 
 /obj/item/ammo_magazine/a32
-	icon_state = "a762"
+	icon = 'icons/obj/ammo.dmi'
+	icon_state = "fiveseven"
 	caliber = ".32"
 	ammo_type = /obj/item/ammo_casing/a32
 	max_ammo = 6
@@ -1036,7 +1037,7 @@
 	name = "speedloader (.44)"
 	desc = "A speedloader for .44 revolvers."
 	icon = 'icons/obj/ammo_vr.dmi'
-	icon_state = "357"
+	icon_state = "s357"
 	caliber = ".44"
 	matter = list(DEFAULT_WALL_MATERIAL = 1260)
 	ammo_type = /obj/item/ammo_casing/a44

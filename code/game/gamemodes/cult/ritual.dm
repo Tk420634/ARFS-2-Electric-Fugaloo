@@ -311,6 +311,7 @@ var/global/list/rnwords = list("ire","ego","nahlizet","certum","veri","jatkaa","
 		for(var/mob/O in viewers(M, null))
 			O.show_message("<span class='warning'>\The [user] beats \the [M] with \the [src]!</span>", 1)
 		M << "<span class='danger'>You feel searing heat inside!</span>"
+		user.setClickCooldown(10)
 
 
 	attack_self(mob/living/user as mob)

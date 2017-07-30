@@ -1,3 +1,20 @@
+// INCLUDES:
+// Datashark
+// Lopunny
+// Renamon
+// Grovyle
+// Eevee
+// Glaceon
+// Shiny Glaceon
+// Ming
+// SUBTERANEAN SLIME
+// Absol
+// Flareon
+// Lugia
+// Lucky
+
+
+
 /datum/species/datashark
 	name = "Datashark"
 	name_plural = "datasharks"
@@ -6,6 +23,8 @@
 
 	tail = "tail"
 	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -36,6 +55,9 @@
 
 	tail = "tail"
 	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
+
 
 	blurb = ""
 
@@ -65,6 +87,8 @@
 
 	tail = "tail"
 	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -93,6 +117,8 @@
 
 	tail = "tail"
 	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -121,6 +147,8 @@
 
 	tail = "tail"
 	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -147,6 +175,10 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -172,6 +204,11 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 	blurb = ""
 
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
+
 	icobase = 'icons/mob/human_races/arfs/r_glaceon_s_arf.dmi'    // Normal icon set.
 	deform = 'icons/mob/human_races/arfs/r_glaceon_s_arf.dmi' // Mutated icon set.
 
@@ -191,6 +228,11 @@
 	name = "Ming"
 	name_plural = "Mings"
 	var/base_species = "Human"
+
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 	blurb = ""
@@ -215,6 +257,7 @@
 	name = "Subteranean Slime"
 	name_plural = "Subteranean Slimes"
 	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -244,6 +287,10 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -268,6 +315,10 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -293,6 +344,10 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
@@ -309,7 +364,7 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 
-// LUCK RACE - Restricted to LuckyKoryo
+// LUCKY RACE - Restricted to LuckyKoryo
 /datum/species/lucky
 	name = "Lucky"
 	name_plural = "Luckies"
@@ -317,6 +372,10 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
 
 	blurb = ""
 
