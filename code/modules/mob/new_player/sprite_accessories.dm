@@ -1311,7 +1311,7 @@
 		icon = 'icons/mob/human_races/r_skrell.dmi'
 		species_allowed = list("Skrell")
 
-
+/*
 // ARFS Markings for donator races, here for now.
 
 /datum/sprite_accessory/marking/arfs
@@ -1357,4 +1357,4 @@
 		icon = 'icons/mob/human_races/markings_arfs.dmi'
 		icon_state = "malelugia2"
 		species_allowed = list("Lugia")
-
+*/
