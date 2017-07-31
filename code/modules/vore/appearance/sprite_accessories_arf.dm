@@ -191,12 +191,12 @@
 /datum/sprite_accessory/tail/taur/naga2
 	name = "Naga 2"
 	icon_state = "naga2_s"
-	do_colouration = 0
+	do_colouration = 1
 
 /datum/sprite_accessory/tail/taur/drider
 	name = "Drider"
 	icon_state = "drider_s"
-	do_colouration = 0
+	do_colouration = 1
 
 /datum/sprite_accessory/tail/taur/drake
 	name = "Drake"
@@ -207,12 +207,12 @@
 	name = "Otie"
 	icon_state = "otie_s"
 	do_colouration = 0
-
+/* Looks awful from the front
 /datum/sprite_accessory/tail/taur/skunk
 	name = "Skunk"
 	icon_state = "skunk_s"
 	do_colouration = 0
-/* //Not adding this just yet, it looks pretty bad.
+ //Not adding this just yet, it looks pretty bad.
 /datum/sprite_accessory/tail/taur/pudd
 	name = "Pudd"
 	icon_state = "pudd_s"
