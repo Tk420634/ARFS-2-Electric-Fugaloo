@@ -185,7 +185,6 @@
 #include "code\dallus_content\donator_items\ties.dm"
 #include "code\dallus_content\donator_items\uniforms.dm"
 #include "code\dallus_content\donator_items\weapons.dm"
-#include "code\dallus_content\donator_lobby\donators.dm"
 #include "code\dallus_content\items\gloves.dm"
 #include "code\dallus_content\items\hats.dm"
 #include "code\dallus_content\items\masks.dm"
