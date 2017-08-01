@@ -190,7 +190,7 @@
 
 /datum/sprite_accessory/tail/taur/naga2
 	name = "Naga 2"
-	icon_state = "naga2_s"
+	icon_state = "snake_s"
 	do_colouration = 1
 
 /datum/sprite_accessory/tail/taur/drider
