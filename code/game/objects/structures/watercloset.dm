@@ -262,6 +262,7 @@
 					H.feet_blood_DNA = null
 					H.track_blood = null
 					H.feet_blood_color = null
+					H.regenerate_icons()
 			if(H.wear_mask && washmask)
 				if(H.wear_mask.clean_blood())
 					H.update_inv_wear_mask(0)
