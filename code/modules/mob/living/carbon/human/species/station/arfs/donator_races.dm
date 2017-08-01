@@ -273,6 +273,7 @@
 	max_age = 100
 	health_hud_intensity = 2
 	num_alternate_languages = 3
+	color_mult = 1
 
 	base_color = "#889bc7"
 
@@ -337,7 +338,6 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-	ckeyrestricted = "chokinandtokin"
 
 // LUGIA RACE
 /datum/species/lugia
