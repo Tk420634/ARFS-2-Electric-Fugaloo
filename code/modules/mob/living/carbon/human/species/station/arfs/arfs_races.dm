@@ -1,3 +1,4 @@
+/*
 /datum/species/alien
 	name_plural = "Alien"
 	var/base_species = "aliens"
@@ -1204,5 +1205,32 @@
 	max_age = 100
 	health_hud_intensity = 2
 	num_alternate_languages = 3
+	spawn_flags = SPECIES_CAN_JOIN
+	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
+*/
+
+/datum/species/vulpix
+	name = "Vulpix"
+	name_plural = "Vulpixs"
+	var/base_species = "Human"
+
+	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
+
+	tail = "tail"
+	icobase_tail = 1
+	color_mult = 1
+	color_blend = 0
+
+	blurb = ""
+
+	icobase = 'icons/mob/human_races/arfs/r_vulpix_arf.dmi'    // Normal icon set.
+	deform = 'icons/mob/human_races/arfs/r_vulpix_arf.dmi' // Mutated icon set.
+
+	name_language = null // Use the first-name last-name generator rather than a language scrambler
+	min_age = 18
+	max_age = 100
+	health_hud_intensity = 2
+	num_alternate_languages = 3
+
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
