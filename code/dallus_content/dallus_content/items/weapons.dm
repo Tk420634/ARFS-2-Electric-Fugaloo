@@ -224,7 +224,7 @@ obj/item/weapon/fleshlight
 /obj/item/toy/plushie/toxin
 	icon_state = "toxincarp"
 	name = "toxic carp plushie"
-	
+
 /obj/item/toy/plushie/dragon
 	icon_state = "dragoncarp"
 	name = "dragon carp plushie"

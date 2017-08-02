@@ -1,4 +1,4 @@
-	//Killbow
+d	//Killbow
 
 /obj/item/weapon/killbowstaff
 	name = "Staff of Arroganaza"
