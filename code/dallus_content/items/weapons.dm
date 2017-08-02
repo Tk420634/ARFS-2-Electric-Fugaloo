@@ -205,38 +205,42 @@ obj/item/weapon/fleshlight
 	name = "tuxedo cat plushie"
 	icon_state = "tuxedocat"
 
-obj/random/carp_plushie
-	name = "Random Carp Plushie"
-	desc = "This is a random plushie"
-	icon = 'icons/obj/toy.dmi'
-	icon_state = "carpplushie"
-
-/obj/item/toy/carpplushie/ice
+/obj/item/toy/plushie/ice
 	icon_state = "icecarp"
+	name = "ice carp plushie"
 
-/obj/item/toy/carpplushie/silent
+/obj/item/toy/plushie/silent
 	icon_state = "silentcarp"
+	name = "silent carp plushie"
 
-/obj/item/toy/carpplushie/electric
+/obj/item/toy/plushie/electric
 	icon_state = "electriccarp"
+	name = "electric carp plushie"
 
-/obj/item/toy/carpplushie/gold
+/obj/item/toy/plushie/gold
 	icon_state = "goldcarp"
+	name = "gold carp plushie"
 
-/obj/item/toy/carpplushie/toxin
+/obj/item/toy/plushie/toxin
 	icon_state = "toxincarp"
-
-/obj/item/toy/carpplushie/dragon
+	name = "toxic carp plushie"
+	
+/obj/item/toy/plushie/dragon
 	icon_state = "dragoncarp"
+	name = "dragon carp plushie"
 
-/obj/item/toy/carpplushie/pink
+/obj/item/toy/plushie/pink
 	icon_state = "pinkcarp"
+	name = "pink carp plushie"
 
-/obj/item/toy/carpplushie/candy
+/obj/item/toy/plushie/candy
 	icon_state = "candycarp"
+	name = "candy carp plushie"
 
-/obj/item/toy/carpplushie/nebula
+/obj/item/toy/plushie/nebula
 	icon_state = "nebulacarp"
+	name = "nebula carp plushie"
 
-/obj/item/toy/carpplushie/void
+/obj/item/toy/plushie/void
 	icon_state = "voidcarp"
+	name = "void carp plushie"
