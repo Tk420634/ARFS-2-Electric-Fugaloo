@@ -498,8 +498,8 @@ var/global/list/damage_icon_parts = list()
 			under_icon = w_uniform.sprite_sheets[species.get_bodytype(src)]
 		else if(w_uniform.item_icons && w_uniform.item_icons[slot_w_uniform_str])
 			under_icon = w_uniform.item_icons[slot_w_uniform_str]
-		else if(isicon(w_uniform.onmob_icon))
-			under_icon = w_uniform.onmob_icon
+		else if(isicon(w_uniform.icon_onmob))
+			under_icon = w_uniform.icon_onmob
 		else
 			under_icon = INV_W_UNIFORM_DEF_ICON
 
