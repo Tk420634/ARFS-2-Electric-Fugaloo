@@ -53,7 +53,7 @@
 	economic_modifier = 7
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_eva)
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_virology, access_eva)
-	alt_titles = list("Surgeon","Emergency Physician","Nurse","Virologist")
+	alt_titles = list("Surgeon","Emergency Physician","Nurse","Virologist","Cosmetic Surgeon")
 
 /datum/job/doctor/equip(var/mob/living/carbon/human/H, var/alt_title)
 	if(!H)	return 0
