@@ -986,7 +986,7 @@
 	num_alternate_languages = 3
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
+*/
 
 /datum/species/slime
 	name = "Slime"
@@ -999,12 +999,16 @@
 	name_language = null // Use the first-name last-name generator rather than a language scrambler
 	min_age = 18
 	max_age = 100
+	color_mult = 1
 	health_hud_intensity = 2
 	num_alternate_languages = 3
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
-
-
+	inherent_verbs = list(
+		/mob/living/carbon/human/proc/shapeshifter_select_colour,
+		/mob/living/carbon/human/proc/shapeshifter_select_hair,
+		/mob/living/carbon/human/proc/shapeshifter_select_gender)
+/*
 /datum/species/siamese
 	name = "Siamese"
 	name_plural = "siamesies"
@@ -1021,7 +1025,7 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-
+*/
 /datum/species/skunk
 	name = "Skunk"
 	name_plural = "skunks"
@@ -1038,7 +1042,7 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-
+/*
 /datum/species/smilodon
 	name = "Smilodon"
 	name_plural = "smildons"
