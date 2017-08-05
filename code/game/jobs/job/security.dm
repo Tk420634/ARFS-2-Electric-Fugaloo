@@ -146,6 +146,7 @@
 	economic_modifier = 4
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks)
+	alt_titles = list("Security Cadet", "Security Secretary")
 	minimal_player_age = 3
 
 /datum/job/officer/equip(var/mob/living/carbon/human/H, var/alt_title)
