@@ -2,10 +2,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/beer_cum
-	name = "\improper Rachel.Co's Cum 'n Beer mix"
-	desc = "Beer mixed with cum from Rachel herself!"
+	name = "\improper rachel.co's Cum 'n Beer mix"
+	desc = "Beer mixed with cum from Rachel herself."
 	description_fluff = "This is a Rachel.Co branded can of a mixture of beer and cum.  Rachel.Co claims that they made this using Rachel's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/beer_cum/New()
@@ -18,10 +18,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/vodka_cum
-	name = "\improper Rachel.Co's Cum 'n Vodka mix"
-	desc = "Vodka mixed with cum from Rachel herself!"
+	name = "\improper rachel.co's Cum 'n Vodka mix"
+	desc = "Vodka mixed with cum from Rachel herself."
 	description_fluff = "This is a Rachel.Co branded can of a mixture of Vodka and cum.  Rachel.Co claims that they made this using Rachel's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/vodka_cum/New()
@@ -34,10 +34,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/gum_cum
-	name = "\improper Rachel.Co's Cum 'n Gum mix"
-	desc = "A new drinkable type of gum! blow bubbles or just drink it!... Mixed with cum from Rachel herself!"
+	name = "\improper rachel.co's Cum 'n Gum mix"
+	desc = "A new drinkable type of gum! blow bubbles or just drink it!... Mixed with cum from Rachel herself."
 	description_fluff = "This is a Rachel.Co branded can of a mixture of sweet gum and cum.  Rachel.Co claims that they made this using Rachel's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/gum_cum/New()
@@ -50,10 +50,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/liquor_cum
-	name = "\improper Rachel.Co's Liquor mix"
-	desc = "Cum liquor! made with cum from Rachel herself!"
+	name = "\improper rachel.co's Liquor mix"
+	desc = "Cum liquor! made with cum from Rachel herself."
 	description_fluff = "This is a Rachel.Co branded can of a mixture of a random liquor and cum.  Rachel.Co claims that they made this using Rachel's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/liquor_cum/New()
@@ -66,10 +66,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/banana_smoothie
-	name = "\improper Rachel.Co's Banana Smoothie"
+	name = "\improper rachel.co's Banana Smoothie"
 	desc = "The brand new Banana Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a banana smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/banana_smoothie/New()
@@ -82,10 +82,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/grape_smoothie
-	name = "\improper Rachel.Co's Grape Smoothie"
+	name = "\improper rachel.co's Grape Smoothie"
 	desc = "The brand new Grape Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a grape smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/grape_smoothie/New()
@@ -98,10 +98,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/orange_smoothie
-	name = "\improper Rachel.Co's Orange Smoothie"
+	name = "\improper rachel.co's Orange Smoothie"
 	desc = "The brand new Orange Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a orange smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/orange_smoothie/New()
@@ -114,10 +114,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/watermelon_smoothie
-	name = "\improper Rachel.Co's Watermelon Smoothie"
+	name = "\improper rachel.co's Watermelon Smoothie"
 	desc = "The brand new Watermelon Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a orange smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/watermelon_smoothie/New()
@@ -130,10 +130,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/pear_smoothie
-	name = "\improper Rachel.Co's Pear Smoothie"
+	name = "\improper rachel.co's Pear Smoothie"
 	desc = "The brand new Pear Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a pear smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/pear_smoothie/New()
@@ -146,10 +146,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/strawberry_smoothie
-	name = "\improper Rachel.Co's Strawberry Smoothie"
+	name = "\improper rachel.co's Strawberry Smoothie"
 	desc = "The brand new Strawberry Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a strawberry smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/strawberry_smoothie/New()
@@ -162,10 +162,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/durian_smoothie
-	name = "\improper Rachel.Co's Durian Smoothie"
-	desc = "The brand new Durian Cum smoothie! Made by Jasmine herself using her own cum, oh my, this one stinks!"
+	name = "\improper rachel.co's Durian Smoothie"
+	desc = "The brand new Durian Cum smoothie! Made by Jasmine herself using her own cum, oh my, this one stinks."
 	description_fluff = "This is a Rachel.Co branded can of a durian smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/durian_smoothie/New()
@@ -178,10 +178,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/lemon_smoothie
-	name = "\improper Rachel.Co's Lemon Smoothie"
+	name = "\improper rachel.co's Lemon Smoothie"
 	desc = "The brand new Lemon Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a lemon smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/lemon_smoothie/New()
@@ -194,10 +194,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/apple_smoothie
-	name = "\improper Rachel.Co's Apple Smoothie"
+	name = "\improper rachel.co's Apple Smoothie"
 	desc = "The brand new Apple Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a apple smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/apple_smoothie/New()
@@ -210,10 +210,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/kiwi_smoothie
-	name = "\improper Rachel.Co's Kiwi Smoothie"
+	name = "\improper rachel.co's Kiwi Smoothie"
 	desc = "The brand new Kiwi Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a kiwi smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/kiwi_smoothie/New()
@@ -226,10 +226,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/cherry_smoothie
-	name = "\improper Rachel.Co's Cherry Smoothie"
+	name = "\improper rachel.co's Cherry Smoothie"
 	desc = "The brand new Cherry Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a cherry smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/cherry_smoothie/New()
@@ -243,10 +243,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/coconut_smoothie
-	name = "\improper Rachel.Co's Coconut Smoothie"
+	name = "\improper rachel.co's Coconut Smoothie"
 	desc = "The brand new Coconut Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a coconut smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/coconut_smoothie/New()
@@ -259,10 +259,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/cranberry_smoothie
-	name = "\improper Rachel.Co's Cranberry Smoothie"
+	name = "\improper rachel.co's Cranberry Smoothie"
 	desc = "The brand new Cranberry Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a cranberry smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/cranberry_smoothie/New()
@@ -275,10 +275,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/grapefruit_smoothie
-	name = "\improper Rachel.Co's Grapefruit Smoothie"
+	name = "\improper rachel.co's Grapefruit Smoothie"
 	desc = "The brand new Grapefruit Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a grapefruit smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/grapefruit_smoothie/New()
@@ -291,10 +291,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/mango_smoothie
-	name = "\improper Rachel.Co's Mango Smoothie"
+	name = "\improper rachel.co's Mango Smoothie"
 	desc = "The brand new Mango Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a mango smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/mango_smoothie/New()
@@ -307,10 +307,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/peach_smoothie
-	name = "\improper Rachel.Co's Peach Smoothie"
+	name = "\improper rachel.co's Peach Smoothie"
 	desc = "The brand new Peach Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a peach smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/peach_smoothie/New()
@@ -323,10 +323,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/pineapple_smoothie
-	name = "\improper Rachel.Co's Pineapple Smoothie"
+	name = "\improper rachel.co's Pineapple Smoothie"
 	desc = "The brand new Pineapple Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a pineapple smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/pineapple_smoothie/New()
@@ -339,10 +339,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/plum_smoothie
-	name = "\improper Rachel.Co's Plum Smoothie"
+	name = "\improper rachel.co's Plum Smoothie"
 	desc = "The brand new Plum Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a plum smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/plum_smoothie/New()
@@ -355,10 +355,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/raspberry_smoothie
-	name = "\improper Rachel.Co's Raspberry Smoothie"
+	name = "\improper rachel.co's Raspberry Smoothie"
 	desc = "The brand new Raspberry Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a raspberry smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/raspberry_smoothie/New()
@@ -371,10 +371,10 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/peanut_smoothie
-	name = "\improper Rachel.Co's Peanut Smoothie"
+	name = "\improper rachel.co's Peanut Smoothie"
 	desc = "The brand new Peanut Cum smoothie! Made by Jasmine herself using her own cum"
 	description_fluff = "This is a Rachel.Co branded can of a peanut smoothie.  Rachel.Co claims that they made this using Jasmine's semen."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/peanut_smoothie/New()
@@ -387,9 +387,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/energy_drink
-	name = "\improper Rachel.Co's Energy drink"
-	desc = "The brand new boost you need for that hard workout or staying up late! made with Wrex's own cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Energy drink"
+	desc = "The brand new boost you need for that hard workout or staying up late! made with Wrex's own cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/energy_drink/New()
@@ -402,9 +402,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/r_cola
-	name = "\improper Rachel.Co's Cola!"
-	desc = "Rachel.co cola! feel the creamy buzz, Made form Rachel's very own cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Cola."
+	desc = "Rachel.co cola! feel the creamy buzz, Made form Rachel's very own cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/r_cola/New()
@@ -417,9 +417,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_choc
-	name = "\improper Rachel.Co's Chocolate Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Chocolate Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_straw/New()
@@ -433,9 +433,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_straw
-	name = "\improper Rachel.Co's Strawberry Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Strawberry Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_straw/New()
@@ -449,9 +449,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_bana
-	name = "\improper Rachel.Co's Banana Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Banana Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_bana/New()
@@ -465,9 +465,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_vani
-	name = "\improper Rachel.Co's Vanilla Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Vanilla Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_vani/New()
@@ -481,9 +481,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_cara
-	name = "\improper Rachel.Co's Caramel Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Caramel Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_cara/New()
@@ -497,9 +497,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_pean
-	name = "\improper Rachel.Co's Peanut Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Peanut Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_pean/New()
@@ -513,9 +513,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_kiwi
-	name = "\improper Rachel.Co's Kiwi Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Kiwi Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_kiwi/New()
@@ -529,9 +529,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_wmel
-	name = "\improper Rachel.Co's Watermelon Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Watermelon Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_wmel/New()
@@ -545,9 +545,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_apple
-	name = "\improper Rachel.Co's Apple Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Apple Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_apple/New()
@@ -561,9 +561,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_semen
-	name = "\improper Rachel.Co's Semen Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Semen Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_semen/New()
@@ -576,9 +576,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_pear
-	name = "\improper Rachel.Co's Pear Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Pear Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_pear/New()
@@ -592,9 +592,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_raspberry
-	name = "\improper Rachel.Co's Raspberry Protein Drink!"
-	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Raspberry Protein Drink."
+	desc = "Mixed by Wrex, for that after workout protein, mixed using her very own balls and cum."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_raspberry/New()
@@ -608,9 +608,9 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/aphro
-	name = "\improper Rachel.Co's Aprodisiac Cola!"
+	name = "\improper rachel.co's Aprodisiac Cola."
 	desc = "Mixed from Rachel's cum AND Rune's Aphrodisiac, for when you need to get in the Mood."
-	icon_state = "purple_can"
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/protein_aphro/New()
@@ -622,9 +622,9 @@
 // 40 Special Mix
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/specialmix
-	name = "\improper Rachel.Co's Special Mix"
-	desc = "Made from the mix of all our stars cum! containing cum from Rachel, Jasmine AND Wrex!"
-	icon_state = "purple_can"
+	name = "\improper rachel.co's Special Mix"
+	desc = "Made from the mix of all our stars cum! containing cum from Rachel, Jasmine AND Wrex."
+	icon_state = "rachelco"
 	center_of_mass = list("x"=16, "y"=10)
 
 /obj/item/weapon/reagent_containers/food/drinks/cans/specialmix/New()
@@ -632,6 +632,3 @@
 	reagents.add_reagent("j_cum",10)
 	reagents.add_reagent("r_cum", 10)
 	reagents.add_reagent("w_cum",10)
-
-
-
