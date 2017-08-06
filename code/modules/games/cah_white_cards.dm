@@ -67,7 +67,7 @@
 	"Teaching a synthetic the Birds and the Bees",
 	"Unnecessary surgery",
 	"My addiction to spiders",
-	"wetskrell.nt",
+	"wetskrell.arf",
 	"DOCTOR MAXMAN!",
 	"A group of Skrell getting their squish on",
 	"Enough soporific to put the entire station down",
