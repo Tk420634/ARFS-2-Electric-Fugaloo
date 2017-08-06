@@ -1,7 +1,13 @@
 // Communicators
 //
 // Allows ghosts to roleplay with crewmembers without having to commit to joining the round, and also allows communications between two communicators.
-
+#define SEX_MALE 1
+#define SEX_FEMALE 2
+#define SEX_OTHER 3
+#define SEXUALITY_STRAIGHT	1
+#define SEXUALITY_GAY		2
+#define SEXUALITY_BI		3
+#define SEXUALITY_OTHER		4
 var/global/list/obj/item/device/communicator/all_communicators = list()
 
 /obj/item/device/communicator
@@ -28,6 +34,23 @@ var/global/list/obj/item/device/communicator/all_communicators = list()
 	var/list/im_contacts = list()
 	var/list/im_list = list()
 
+	var/list/chatrooms_list = list()
+	var/list/active_chatrooms = list()
+
+	var/list/profile_details = list(
+		profile_public = 0,
+		sex = null,
+		sexuality = null,
+		species = null,
+		height = null,
+		looking_status = FALSE,
+		single_status = SINGLE_ALONE,
+		bio = "Bio not set.",
+		desc = "Personal description not set.",
+		prefs = "Partner preferences not set.",
+		ooc_notes = "OOC notes not set."
+		)
+
 	var/note = "Thank you for choosing the T-14.2 Communicator, this is your notepad!" //Current note in the notepad function
 	var/notehtml = ""
 
@@ -36,6 +59,7 @@ var/global/list/obj/item/device/communicator/all_communicators = list()
 							list("module" = "Phone", "icon" = "phone64", "number" = 2),
 							list("module" = "Contacts", "icon" = "person64", "number" = 3),
 							list("module" = "Messaging", "icon" = "comment64", "number" = 4),
+							list("module" = "Chatrooms", "icon" = "comment64", "number" = 7),
 							list("module" = "Note", "icon" = "note64", "number" = 5),
 							list("module" = "Settings", "icon" = "gear64", "number" = 6)
 							)	//list("module" = "Name of Module", "icon" = "icon name64", "number" = "what tab is the module")
@@ -348,6 +372,7 @@ var/global/list/obj/item/device/communicator/all_communicators = list()
 	data["imList"] = im_list_ui
 	data["time"] = stationtime2text()
 	data["ring"] = ringer
+	data["camera_on"] = camera.status
 	data["homeScreen"] = modules_ui
 	data["note"] = note					// current notes
 
@@ -389,6 +414,9 @@ var/global/list/obj/item/device/communicator/all_communicators = list()
 				network_visibility = 1
 				if(camera)
 					camera.add_network(NETWORK_COMMUNICATORS)
+
+	if(href_list["toggle_camera"])
+		camera.set_status(!camera.status)
 
 	if(href_list["toggle_ringer"])
 		ringer = !ringer
