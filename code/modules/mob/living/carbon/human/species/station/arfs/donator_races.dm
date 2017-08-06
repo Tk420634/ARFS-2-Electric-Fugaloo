@@ -18,7 +18,7 @@
 /datum/species/datashark
 	name = "Datashark"
 	name_plural = "datasharks"
-	var/base_species = "Human"
+
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
 	tail = "tail"
@@ -49,7 +49,7 @@
 /datum/species/lopunny
 	name = "Lopunny"
 	name_plural = "Lopunnies"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -76,7 +76,7 @@
 	ckeyrestricted = "killbow"
 
 
-
+/*
 // RENAMON RACE
 /datum/species/renamon
 	name = "Renamon"
@@ -103,7 +103,7 @@
 
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR //No skin color, use patterns.
-
+*/
 
 
 
@@ -111,7 +111,7 @@
 /datum/species/grovyle
 	name = "Grovyle"
 	name_plural = "Groyvles"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -141,7 +141,7 @@
 /datum/species/eevee
 	name = "Eevee"
 	name_plural = "Eevees"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -171,7 +171,7 @@
 /datum/species/glaceon
 	name = "Glaceon"
 	name_plural = "Glaceons"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -199,7 +199,7 @@
 /datum/species/glaceon_s
 	name = "Shiny Glaceon"
 	name_plural = "Shiny Glaceons"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 	blurb = ""
@@ -223,6 +223,7 @@
 
 	ckeyrestricted = "alex123890"
 
+/*
 // MING RACE - Restricted to Tk420634
 /datum/species/ming
 	name = "Ming"
@@ -250,13 +251,13 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_SKIN_COLOR
 
 	ckeyrestricted = "tk420634"
-
+*/
 
 // SUBTERANEAN SLIME RACE - Restricted to Runeguden
 /datum/species/rune
 	name = "Subteranean Slime"
 	name_plural = "Subteranean Slimes"
-	var/base_species = "Human"
+	var/base_species = "Subteranean Slime"
 
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
@@ -272,6 +273,7 @@
 	max_age = 100
 	health_hud_intensity = 2
 	num_alternate_languages = 3
+	color_mult = 1
 
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_SKIN_COLOR
@@ -283,7 +285,7 @@
 /datum/species/flareon
 	name = "Flareon"
 	name_plural = "Flareons"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -311,7 +313,7 @@
 /datum/species/absol
 	name = "Absol"
 	name_plural = "Absols"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -334,13 +336,12 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-	ckeyrestricted = "chokinandtokin"
 
 // LUGIA RACE
 /datum/species/lugia
 	name = "Lugia"
 	name_plural = "Lugias"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
@@ -368,7 +369,7 @@
 /datum/species/lucky
 	name = "Lucky"
 	name_plural = "Luckies"
-	var/base_species = "Human"
+
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
