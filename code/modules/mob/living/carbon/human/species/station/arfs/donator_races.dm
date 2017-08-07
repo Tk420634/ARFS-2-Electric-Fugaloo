@@ -392,4 +392,4 @@
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_EYE_COLOR
 
-//	ckeyrestricted = "luckykoryo"
+	ckeyrestricted = "luckykoryo, tk420634"
