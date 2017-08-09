@@ -65,7 +65,7 @@
 		net_block
 			author = "Assistant Editor Carl Ritz"
 			channel_name = "The Gibson Gazette"
-			message = {"Several corporations banding together to block access to 'wetskrell.nt', site administrators
+			message = {"Several corporations banding together to block access to 'wetskrell.arf', site administrators
 			claiming violation of net laws."}
 			round_time = 60 * 50
 
