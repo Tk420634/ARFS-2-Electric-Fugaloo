@@ -78,7 +78,7 @@
 	idtype = /obj/item/weapon/card/id/civilian
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_hydroponics)
-	alt_titles = list("Hydroponicist", "Farmer", "Horticulturalist", "Florist")
+	alt_titles = list("Hydroponicist", "Farmer", "Horticulturalist", "Florist", "Beekeeper")
 
 
 /datum/job/hydro/equip(var/mob/living/carbon/human/H, var/alt_title)
