@@ -287,7 +287,7 @@
 	icon_state = "plant-12"
 
 /obj/structure/flora/pottedplant/sticky
-	name = "styicky potted plant"
+	name = "sticky potted plant"
 	desc = "This is an odd plant. Its sticky leaves trap insects."
 	icon_state = "plant-13"
 

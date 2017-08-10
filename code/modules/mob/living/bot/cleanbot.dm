@@ -9,6 +9,7 @@
 	wait_if_pulled = 1
 	min_target_dist = 0
 
+	var/shutup = 0
 	var/cleaning = 0
 	var/screwloose = 0
 	var/oddbutton = 0
@@ -20,7 +21,7 @@
 	get_targets()
 
 /mob/living/bot/cleanbot/handleIdle()
-	if(!screwloose && !oddbutton && prob(5))
+	if(!screwloose && !oddbutton && !shutup && prob(1))
 		custom_emote(2, "makes an excited beeping booping sound!")
 
 	if(screwloose && prob(5)) // Make a mess
@@ -111,7 +112,8 @@
 	dat += "Maintenance panel is [open ? "opened" : "closed"]"
 	if(!locked || issilicon(user))
 		dat += "<BR>Cleans Blood: <A href='?src=\ref[src];operation=blood'>[blood ? "Yes" : "No"]</A><BR>"
-		dat += "<BR>Patrol station: <A href='?src=\ref[src];operation=patrol'>[will_patrol ? "Yes" : "No"]</A><BR>"
+		dat += "<BR>Patrol Station: <A href='?src=\ref[src];operation=patrol'>[will_patrol ? "Yes" : "No"]</A><BR>"
+		dat += "<BR>Speaker Switch: <A href='?src=\ref[src];operation=speaker'>[shutup ? "Off" : "On"]</A><BR>"
 	if(open && !locked)
 		dat += "Odd looking screw twiddled: <A href='?src=\ref[src];operation=screw'>[screwloose ? "Yes" : "No"]</A><BR>"
 		dat += "Weird button pressed: <A href='?src=\ref[src];operation=oddbutton'>[oddbutton ? "Yes" : "No"]</A>"
@@ -143,6 +145,8 @@
 		if("oddbutton")
 			oddbutton = !oddbutton
 			usr << "<span class='notice'>You press the weird button.</span>"
+		if("speaker")
+			shutup = !shutup
 	attack_hand(usr)
 
 /mob/living/bot/cleanbot/emag_act(var/remaining_uses, var/mob/user)
