@@ -231,14 +231,14 @@
 	department = "Civilian"
 	department_flag = CIVILIAN
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the head of personnel"
 	selection_color = "#515151"
 	idtype = /obj/item/weapon/card/id/civilian
 	access = list(access_library, access_maint_tunnels)
 	minimal_access = list(access_library)
-	alt_titles = list("Journalist", "Professor", "Historian", "Writer", "Poet", "Cataloger", "Archivist", "Chronicler", "Reporter")
+	alt_titles = list("Journalist", "Professor", "Historian", "Writer", "Poet", "Cataloger", "Archivist", "Chronicler", "Reporter", "Game Master", "Dungeon Master", "Story Teller", )
 
 
 /datum/job/librarian/equip(var/mob/living/carbon/human/H, var/alt_title)
