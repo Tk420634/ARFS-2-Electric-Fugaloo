@@ -121,7 +121,7 @@
 	economic_modifier = 5
 	access = list(access_robotics, access_tox, access_tox_storage, access_tech_storage, access_morgue, access_research) //As a job that handles so many corpses, it makes sense for them to have morgue access.
 	minimal_access = list(access_robotics, access_tech_storage, access_morgue, access_research) //As a job that handles so many corpses, it makes sense for them to have morgue access.
-	alt_titles = list("Biomechanical Engineer","Mechatronic Engineer")
+	alt_titles = list("Biomechanical Engineer","Mechatronic Engineer","Tinkerer")
 
 	minimal_player_age = 7
 
