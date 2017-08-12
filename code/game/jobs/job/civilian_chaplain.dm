@@ -54,7 +54,7 @@
 				B.name = "Toolbox Manifesto"
 			if("homosexuality")
 				B.name = "Guys Gone Wild"
-			if("lol", "wtf", "gay", "penis", "ass", "poo", "badmin", "shitmin", "deadmin", "cock", "cocks", "chaos", "khorne", "nurgle", "tzeench", "khayoss")
+			if("lol", "wtf", "gay", "penis", "ass", "poo", "badmin", "shitmin", "deadmin", "cock", "cocks", "khorne", "nurgle", "tzeench", "khayoss")
 				B.name = pick("Woodys Got Wood: The Aftermath", "War of the Cocks", "Sweet Bro and Hella Jef: Expanded Edition", "Derpimus", "Admins Pls")
 				H.setBrainLoss(100) // starts off retarded as fuck
 			if("science")
