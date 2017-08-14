@@ -13,7 +13,7 @@
 	access = list(access_morgue, access_chapel_office, access_crematorium, access_maint_tunnels)
 	minimal_access = list(access_chapel_office, access_crematorium)
 	alt_titles = list("Counselor", "Priest", "Priestess", "Cleric", "Nun", "Preacher", "Soothsayer", "Archbishop", "Bishop", "Bhikkhu", "Reverend", "Granthi", 
-	, "Bhikkhuni", "Guru", "Imam", "Minister", "Monk", "Mullah", "Pastor", "Rabbi", "Shaman", "Sheikh", "Daoshi"  )
+	, "Bhikkhuni", "Guru", "Imam", "Minister", "Monk", "Mullah", "Pastor", "Rabbi", "Shaman", "Sheikh", "Daoshi", "Oracle"  )
 
 
 /datum/job/chaplain/equip(var/mob/living/carbon/human/H, var/alt_title, var/ask_questions = TRUE)
@@ -54,9 +54,9 @@
 				B.name = "Toolbox Manifesto"
 			if("homosexuality")
 				B.name = "Guys Gone Wild"
-			//if("lol", "wtf", "gay", "penis", "ass", "poo", "badmin", "shitmin", "deadmin", "cock", "cocks")
-			//	B.name = pick("Woodys Got Wood: The Aftermath", "War of the Cocks", "Sweet Bro and Hella Jef: Expanded Edition")
-			//	H.setBrainLoss(100) // starts off retarded as fuck
+			if("lol", "wtf", "gay", "penis", "ass", "poo", "badmin", "shitmin", "deadmin", "cock", "cocks", "khorne", "nurgle", "tzeench", "khayoss")
+				B.name = pick("Woodys Got Wood: The Aftermath", "War of the Cocks", "Sweet Bro and Hella Jef: Expanded Edition", "Derpimus", "Admins Pls")
+				H.setBrainLoss(100) // starts off retarded as fuck
 			if("science")
 				B.name = pick("Principle of Relativity", "Quantum Enigma: Physics Encounters Consciousness", "Programming the Universe", "Quantum Physics and Theology", "String Theory for Dummies", "How To: Build Your Own Warp Drive", "The Mysteries of Bluespace", "Playing God: Collector's Edition")
 			else
