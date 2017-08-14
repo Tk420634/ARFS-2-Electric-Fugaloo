@@ -129,7 +129,7 @@
 		slot_l_hand_str = 'icons/mob/items/lefthand_guns_arfs.dmi',
 		slot_r_hand_str = 'icons/mob/items/righthand_guns_arfs.dmi',
 		)
-	burst_delay = 0.7
+	burst_delay = 1
 	w_class = ITEMSIZE_NORMAL
 	caliber = "tokarev"
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
@@ -156,7 +156,7 @@
 	desc = "A very old light machinegun. Pretty reliable, and accurate, it's got a pretty weird design using 41 round disk mags, in a toploader configuration. Uses 7.62x54mm R rounds."
 	icon = 'icons/obj/gun_arfs.dmi'
 	icon_state = "dp28"
-	fire_delay = 2
+	fire_delay = 3
 	recoil = 1.5
 	fire_sound = 'sound/weapons/gunshot_rifle.ogg'
 	move_delay = 0
@@ -228,7 +228,7 @@
 		icon_state = "pkm-empty"
 
 /obj/item/weapon/gun/projectile/automatic/mg34
-	name = "MG32 light machinegun"
+	name = "MG34 light machinegun"
 	desc = "This thing sounds like a buzzsaw when it fires, because of it's incredibly high rate of fire. Useful for making an entire hallway of enemies into swiss cheese. Uses 7.92x57mm Mauser."
 	icon = 'icons/obj/gun_arfs.dmi'
 	icon_state = "l6closed100"
@@ -308,7 +308,7 @@
 	..()
 
 /obj/item/weapon/gun/projectile/automatic/mg34/plus
-	name = "MG32 light machinegun"
+	name = "MG34 light machinegun"
 	desc = "This thing sounds like a buzzsaw when it fires, because of it's incredibly high rate of fire. Useful for making an entire hallway of enemies into swiss cheese. You feel like using this on the fifth firing mode is a bad idea... Uses 7.92x57mm Mauser."
 	icon = 'icons/obj/gun_arfs.dmi'
 	icon_state = "l6closed100"
@@ -347,7 +347,7 @@
 	desc = "Rush B, cyka blyat. Uses 7.62x39mm rounds."
 	icon = 'icons/obj/gun_arfs.dmi'
 	icon_state = "akm"
-	fire_delay = 1
+	fire_delay = 2
 	fire_sound = 'sound/weapons/SVD_shot.ogg'
 	recoil = 1
 	move_delay = 0
@@ -479,7 +479,7 @@
 	desc = "An assault rifle from the late 20th century. The M4 has served as the basis for many modern assault rifles and weapon platforms. Uses 5.56x41mm."
 	icon = 'icons/obj/gun_arfs.dmi'
 	icon_state = "m4"
-	fire_delay = 0
+	fire_delay = 1
 	fire_sound = 'sound/weapons/SVD_shot.ogg'
 	recoil = 1
 	move_delay = 0
@@ -546,15 +546,15 @@
 	fire_sound = 'sound/weapons/pshwowow.ogg'
 	slot_flags = SLOT_BELT
 	w_class = ITEMSIZE_NORMAL
-	projectile_type = /obj/item/projectile/beam/xray
+	projectile_type = /obj/item/projectile/beam/retrotech
 	origin_tech = null
-	fire_delay = 0
+	fire_delay = 1
 	charge_cost = 200
 	self_recharge = 1
-	recharge_time = 3
-	charge_delay = 10
+	recharge_time = 1
+	charge_delay = 100 //it takes a bit to recharge, but when the delay is up, it charges up quick as fuck
 	firemodes = list(
-		list(mode_name="kill", projectile_type=/obj/item/projectile/beam/xray, charge_cost = 200),
+		list(mode_name="kill", projectile_type=/obj/item/projectile/beam/retrotech, charge_cost = 200),
 		list(mode_name="disable", projectile_type=/obj/item/projectile/beam/disable/retro, charge_cost = 100),
 		)
 
@@ -577,7 +577,7 @@
 	fire_delay = 0
 	self_recharge = 1
 	recharge_time = 5
-	charge_delay = 50
+	charge_delay = 100
 	firemodes = list(
 		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam/xray, fire_sound='sound/weapons/Laser3.ogg', charge_cost = 200),
 		list(mode_name="disable", projectile_type=/obj/item/projectile/beam/disable/retro, fire_sound='sound/weapons/eLuger.ogg', charge_cost = 100),
@@ -627,6 +627,17 @@
     tracer_type = /obj/effect/projectile/laser_omni/tracer
     impact_type = /obj/effect/projectile/laser_omni/impact
 
+/obj/item/projectile/beam/retrotech
+	name = "green laser"
+	icon_state = "xray"
+	damage = 20
+	agony = 25
+	armor_penetration = 10
+	light_color = "#00CC33"
+
+	muzzle_type = /obj/effect/projectile/xray/muzzle
+	tracer_type = /obj/effect/projectile/xray/tracer
+	impact_type = /obj/effect/projectile/xray/impact
 
 /obj/item/ammo_magazine/mp40
 	name = "magazine (9mm)"

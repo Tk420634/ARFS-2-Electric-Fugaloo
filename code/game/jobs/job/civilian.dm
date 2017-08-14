@@ -114,7 +114,7 @@
 	economic_modifier = 5
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
-	alt_titles = list("Supply Chief")
+	alt_titles = list("Supply Chief", "Seneschal")
 
 	ideal_character_age = 40
 
@@ -171,7 +171,7 @@
 	economic_modifier = 5
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_mining, access_mining_station)
 	minimal_access = list(access_mining, access_mining_station, access_mailsorting)
-	alt_titles = list("Drill Technician", "Prospector", "Asteroid Miner", "Liscenced Adventurer", "Astro-Medic", "Smithy")
+	alt_titles = list("Drill Technician", "Prospector", "Asteroid Miner", "Licensed Adventurer", "Astro-Medic", "Smithy")
 
 /datum/job/mining/equip(var/mob/living/carbon/human/H, var/alt_title)
 	if(!H)	return 0
@@ -231,14 +231,14 @@
 	department = "Civilian"
 	department_flag = CIVILIAN
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the head of personnel"
 	selection_color = "#515151"
 	idtype = /obj/item/weapon/card/id/civilian
 	access = list(access_library, access_maint_tunnels)
 	minimal_access = list(access_library)
-	alt_titles = list("Journalist", "Professor", "Historian", "Writer", "Poet", "Cataloger", "Archivist", "Chronicler", "Reporter")
+	alt_titles = list("Journalist", "Professor", "Historian", "Writer", "Poet", "Cataloger", "Archivist", "Chronicler", "Reporter", "Game Master", "Dungeon Master", "Story Teller", "Bookkeeper")
 
 
 /datum/job/librarian/equip(var/mob/living/carbon/human/H, var/alt_title)
