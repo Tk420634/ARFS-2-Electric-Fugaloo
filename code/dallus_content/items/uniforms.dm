@@ -465,7 +465,7 @@
 	icon_state = "bsing"
 
 
-/obj/item/clothing/under/lifeguard
+/obj/item/clothing/under/swimsuit/lifeguard
 	name = "lifeguard swimsuit"
 	desc = "a bright red swimsuit marking the wearer as a lifeguard."
 	icon = 'code/dallus_content/icons/uniform-obj.dmi'
