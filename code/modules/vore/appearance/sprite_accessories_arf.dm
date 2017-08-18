@@ -156,7 +156,7 @@
 	desc = ""
 	icon_state = "acaelius"
 	do_colouration = 1
-
+	ckeys_allowed = list("acaelius")
 
 /*
 ////////////////////////////
