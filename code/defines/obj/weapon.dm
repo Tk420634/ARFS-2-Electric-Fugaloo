@@ -39,7 +39,7 @@
 	icon_state = "soapnt"
 
 /obj/item/weapon/soap/nanotrasen/New()
-	desc = "A Alliance of Racial Federations brand bar of soap. Smells [pick("like a friskey vixen", "fruity", "like phoron", "like wolf cum", "like bananas", "of bleach", "like cucumbers")]."
+	desc = "An Alliance of Racial Federations brand bar of soap. Smells [pick("like a friskey vixen", "fruity", "like phoron", "like wolf cum", "like bananas", "of bleach", "like cucumbers")]."
 	..()
 
 /obj/item/weapon/soap/deluxe
