@@ -177,6 +177,7 @@
 #include "code\dallus_content\dallus_content\combat_arfs.dm"
 #include "code\dallus_content\dallus_content\mobs.dm"
 #include "code\dallus_content\dallus_content\vending.dm"
+#include "code\dallus_content\dallus_content\mob\shadowbeast.dm"
 #include "code\dallus_content\donator_items\devices.dm"
 #include "code\dallus_content\donator_items\gloves.dm"
 #include "code\dallus_content\donator_items\hats.dm"
