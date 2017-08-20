@@ -174,6 +174,7 @@
 #include "code\controllers\Processes\vote.dm"
 #include "code\controllers\ProcessScheduler\core\process.dm"
 #include "code\controllers\ProcessScheduler\core\processScheduler.dm"
+#include "code\dallus_content\dallus_content\combat_arfs.dm"
 #include "code\dallus_content\dallus_content\mobs.dm"
 #include "code\dallus_content\dallus_content\vending.dm"
 #include "code\dallus_content\donator_items\devices.dm"
