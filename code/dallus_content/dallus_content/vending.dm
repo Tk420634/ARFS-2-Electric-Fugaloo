@@ -275,7 +275,7 @@
 	/obj/item/weapon/dildos/analbeads=2, /obj/item/clothing/accessory/collar = 4,
 	/obj/item/clothing/accessory/collar/silver = 4, /obj/item/clothing/accessory/collar/gold = 4,
 	/obj/item/clothing/accessory/collar/bell = 4, /obj/item/clothing/accessory/collar/spike = 4,
-	/obj/item/clothing/accessory/collar/pink = 4,/obj/item/clothing/accessory/collar/holo = 4,
+	/obj/item/clothing/accessory/collar/pink = 4,/obj/item/clothing/accessory/collar/holo = 4,/obj/item/clothing/mask/muzzle/ballgag = 4,
 	/obj/item/clothing/under/stripper/stripper_pink = 4, /obj/item/clothing/under/stripper/stripper_green = 4,
 	/obj/item/clothing/under/stripper/mankini = 4)
 
