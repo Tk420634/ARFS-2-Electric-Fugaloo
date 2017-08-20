@@ -489,6 +489,12 @@ area/space/atmosalert()
 	requires_power = 0
 	sound_env = ASTEROID
 
+/area/asteroid/dungeon				// -- TLE
+	name = "\improper dungeon"
+	icon_state = "cave"
+	requires_power = 0
+	sound_env = ASTEROID
+
 /area/asteroid/artifactroom
 	name = "\improper Moon - Artifact"
 	icon_state = "cave"
