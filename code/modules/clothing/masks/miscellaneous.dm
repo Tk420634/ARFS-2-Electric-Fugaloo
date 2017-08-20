@@ -7,6 +7,15 @@
 	gas_transfer_coefficient = 0.90
 	voicechange = 1
 
+/obj/item/clothing/mask/muzzle/ballgag
+	name = "ballgag"
+	desc = "You know exactly what this is for, you kinky fuck."
+	icon_state = "ballgag"
+	body_parts_covered = FACE
+	w_class = ITEMSIZE_SMALL
+	gas_transfer_coefficient = 0.90
+	voicechange = 1
+
 /obj/item/clothing/mask/muzzle/tape
 	name = "length of tape"
 	desc = "It's a robust DIY muzzle!"
