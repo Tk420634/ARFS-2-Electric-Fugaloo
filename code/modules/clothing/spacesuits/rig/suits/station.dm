@@ -60,7 +60,7 @@
 	suit_type = "industrial hardsuit"
 	desc = "A heavy, powerful rig used by construction crews and mining corporations."
 	icon_state = "engineering_rig"
-	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 100, rad = 50)
+	armor = list(melee = 30, bullet = 10, laser = 20,energy = 15, bomb = 30, bio = 100, rad = 50)
 	slowdown = 1
 	offline_slowdown = 10
 	offline_vision_restriction = 2
