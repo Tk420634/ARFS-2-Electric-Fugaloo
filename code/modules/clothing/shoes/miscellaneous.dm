@@ -141,6 +141,17 @@
 	desc = "A pair of high-heeled shoes. Fancy!"
 	icon_state = "heels"
 
+/obj/item/clothing/shoes/heels/white //Vendor item for the parent, so colored heels in loadout aren't called "white high heels"
+	name = "white high heels"
+
+/obj/item/clothing/shoes/heels/black
+	name = "black high heels"
+	color = "#303030"
+
+/obj/item/clothing/shoes/heels/red
+	name = "red high heels"
+	color = "#F02020"
+
 /obj/item/clothing/shoes/footwraps
 	name = "cloth footwraps"
 	desc = "A roll of treated canvas used for wrapping claws or paws"

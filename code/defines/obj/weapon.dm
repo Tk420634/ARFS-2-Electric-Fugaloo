@@ -36,8 +36,11 @@
 	throw_range = 20
 
 /obj/item/weapon/soap/nanotrasen
-	desc = "A NanoTrasen-brand bar of soap. Smells of phoron."
 	icon_state = "soapnt"
+
+/obj/item/weapon/soap/nanotrasen/New()
+	desc = "An Alliance of Racial Federations brand bar of soap. Smells [pick("like a friskey vixen", "fruity", "like phoron", "like wolf cum", "like bananas", "of bleach", "like cucumbers")]."
+	..()
 
 /obj/item/weapon/soap/deluxe
 	icon_state = "soapdeluxe"
