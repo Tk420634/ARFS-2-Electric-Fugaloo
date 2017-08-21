@@ -493,6 +493,7 @@ area/space/atmosalert()
 	name = "\improper dungeon"
 	icon_state = "cave"
 	requires_power = 0
+	dynamic_lighting = 1
 	sound_env = ASTEROID
 
 /area/asteroid/artifactroom
