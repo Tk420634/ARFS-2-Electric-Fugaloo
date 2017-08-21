@@ -6,7 +6,7 @@
 
 /datum/sprite_accessory/hair
 
-	species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", "Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee","Glaceon","Shiny Glaceon","Flareon","Absol","Lucky") //This lets all races use the default hairstyles.
+	species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", "Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee","Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix") //This lets all races use the default hairstyles.
 
 	sergal_plain
 		name = "Sergal Plain"
@@ -41,7 +41,7 @@
 		name = "Bald"
 		icon_state = "bald"
 		gender = MALE
-		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", "Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid") //Lets all the races be bald if they want.
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", "Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Vulpix") //Lets all the races be bald if they want.
 
 
 	una_hood
@@ -449,7 +449,7 @@
 
 /datum/sprite_accessory/dicks
 	icon = 'icons/vore/extras/dicks.dmi'
-	species_allowed = list("Human","Unathi","Tajara","Skrell", "Sergal", "Akula","Nevrean", "Highlander Zorren", "Flatland Zorren", "Vulpkanin", "Xenomorph Hybrid")
+	species_allowed = list("Human","Unathi","Tajara","Skrell", "Sergal", "Akula","Nevrean", "Highlander Zorren", "Flatland Zorren", "Vulpkanin", "Xenomorph Hybrid","Vulpix")
 
 	dik_none
 		name = "None"
@@ -568,7 +568,7 @@
 
 /datum/sprite_accessory/vaginas
 	icon = 'icons/vore/extras/vaginas.dmi'
-	species_allowed = list("Human","Unathi","Tajara","Skrell", "Sergal", "Akula","Nevrean", "Highlander Zorren", "Flatland Zorren", "Vulpkanin", "Xenomorph Hybrid")
+	species_allowed = list("Human","Unathi","Tajara","Skrell", "Sergal", "Akula","Nevrean", "Highlander Zorren", "Flatland Zorren", "Vulpkanin", "Xenomorph Hybrid","Vulpix")
 
 	vag_none
 		name = "None"
@@ -626,7 +626,7 @@
 
 /datum/sprite_accessory/breasts
 	icon = 'icons/vore/extras/breasts.dmi'
-	species_allowed = list("Human","Unathi","Tajara","Skrell", "Sergal", "Akula","Nevrean", "Highlander Zorren", "Flatland Zorren", "Vulpkanin", "Xenomorph Hybrid")
+	species_allowed = list("Human","Unathi","Tajara","Skrell", "Sergal", "Akula","Nevrean", "Highlander Zorren", "Flatland Zorren", "Vulpkanin", "Xenomorph Hybrid","Vulpix")
 
 	brt_none
 		name = "None"
