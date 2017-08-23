@@ -93,7 +93,7 @@
 /obj/item/stack/tile/carpet/turcarpet
 	icon_state = "tile-turcarpet"
 /obj/item/stack/tile/carpet/sblucarpet
-	icon_state = "tile-sblucarpet"
+	icon_state = "tile-sblucarpet" //I FIXED IT, BUT IT'S LAZY AS SHIT. -Radar
 /obj/item/stack/tile/carpet/gaycarpet
 	icon_state = "tile-gaycarpet"
 /obj/item/stack/tile/carpet/purcarpet
