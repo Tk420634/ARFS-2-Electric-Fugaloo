@@ -32,7 +32,7 @@
 		Z_LEVEL_MINING_ARFS
 		)
 
-	accessible_z_levels = list("1" = 5, "3" = 60, "4" = 15, "5" = 20) // The defines can't be used here sadly.
+	accessible_z_levels = list("1" = 5, "3" = 60, "4" = 0, "5" = 20) // The defines can't be used here sadly.
 
 	base_turf_by_z = list("5" = /turf/simulated/mineral/floor)
 
