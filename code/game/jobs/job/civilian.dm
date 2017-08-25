@@ -256,8 +256,8 @@
 /datum/job/lawyer
 	title = "Internal Affairs Agent"
 	flag = LAWYER
-	department = "Civilian"
-	department_flag = CIVILIAN
+	department = "Security"
+	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
