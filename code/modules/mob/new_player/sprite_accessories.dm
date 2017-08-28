@@ -635,120 +635,205 @@
 		name = "Shaved"
 		icon_state = "bald"
 		gender = NEUTER
-		species_allowed = list("Human","Unathi","Tajara","Skrell", "Machine","Teshari", "Vox","Lugia","Datashark","Grovyle","Eevee","Glaceon","Shiny Glaceon","Flareon","Absol","Lucky")
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	watson
 		name = "Watson Mustache"
 		icon_state = "facial_watson"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	hogan
 		name = "Hulk Hogan Mustache"
 		icon_state = "facial_hogan" //-Neek
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	vandyke
 		name = "Van Dyke Mustache"
 		icon_state = "facial_vandyke"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	chaplin
 		name = "Square Mustache"
 		icon_state = "facial_chaplin"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	selleck
 		name = "Selleck Mustache"
 		icon_state = "facial_selleck"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	neckbeard
 		name = "Neckbeard"
 		icon_state = "facial_neckbeard"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	fullbeard
 		name = "Full Beard"
 		icon_state = "facial_fullbeard"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	longbeard
 		name = "Long Beard"
 		icon_state = "facial_longbeard"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	vlongbeard
 		name = "Very Long Beard"
 		icon_state = "facial_wise"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	elvis
 		name = "Elvis Sideburns"
 		icon_state = "facial_elvis"
-		species_allowed = list("Human","Unathi")
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	abe
 		name = "Abraham Lincoln Beard"
 		icon_state = "facial_abe"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	chinstrap
 		name = "Chinstrap"
 		icon_state = "facial_chin"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	hip
 		name = "Hipster Beard"
 		icon_state = "facial_hip"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	gt
 		name = "Goatee"
 		icon_state = "facial_gt"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	jensen
 		name = "Adam Jensen Beard"
 		icon_state = "facial_jensen"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	volaju
 		name = "Volaju"
 		icon_state = "facial_volaju"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	dwarf
 		name = "Dwarf Beard"
 		icon_state = "facial_dwarf"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 		threeOclock
 		name = "3 O'clock Shadow"
 		icon_state = "facial_3oclock"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	threeOclockstache
 		name = "3 O'clock Shadow and Moustache"
 		icon_state = "facial_3oclockmoustache"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	fiveOclock
 		name = "5 O'clock Shadow"
 		icon_state = "facial_5oclock"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	fiveOclockstache
 		name = "5 O'clock Shadow and Moustache"
 		icon_state = "facial_5oclockmoustache"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	sevenOclock
 		name = "7 O'clock Shadow"
 		icon_state = "facial_7oclock"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	sevenOclockstache
 		name = "7 O'clock Shadow and Moustache"
 		icon_state = "facial_7oclockmoustache"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	mutton
 		name = "Mutton Chops"
 		icon_state = "facial_mutton"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	muttonstache
 		name = "Mutton Chops and Moustache"
 		icon_state = "facial_muttonmus"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	walrus
 		name = "Walrus Moustache"
 		icon_state = "facial_walrus"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	croppedbeard
 		name = "Full Cropped Beard"
 		icon_state = "facial_croppedfullbeard"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 
 	chinless
 		name = "Chinless Beard"
 		icon_state = "facial_chinlessbeard"
+		species_allowed = list("Human","Skrell","Unathi","Tajara", "Teshari", "Nevrean", "Akula", "Sergal", "Flatland Zorren", 
+	"Highlander Zorren", "Vulpkanin", "Xenochimera", "Xenomorph Hybrid","Lugia","Datashark","Grovyle","Eevee",
+	"Glaceon","Shiny Glaceon","Flareon","Absol","Lucky","Vulpix","Skunk","Slime","Lopunny","Subteranean Slime")
 /*
 ///////////////////////////////////
 /  =---------------------------=  /
