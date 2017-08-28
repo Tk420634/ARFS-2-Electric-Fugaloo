@@ -1,6 +1,7 @@
 /mob/living
 	var/habit_selected
 	var/list/habits = list()		// List of vore containers inside a mob
+	var/selected
 
 
 #define HABITS_MAX 20
