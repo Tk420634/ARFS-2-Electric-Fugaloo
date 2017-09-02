@@ -26,3 +26,9 @@
 		icon_state = "sharktail_stripes"
 		species_allowed = list("Akula")
 		ignore_bodyparts = 1
+
+	bird_oldbeak
+		name = "Corvid Beak (Nevrean)"
+		icon_state = "nevrean_oldbeak"
+		body_parts = list(BP_HEAD)
+		species_allowed = list("Nevrean")
