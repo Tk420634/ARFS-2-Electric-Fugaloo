@@ -1,7 +1,7 @@
 "a" = (/turf/unsimulated/wall,/area/asteroid/dungeon)
 "b" = (/turf/unsimulated/wall/exterior,/area/asteroid/dungeon)
 "c" = (/obj/item/weapon/reagent_containers/food/snacks/watermelonslice,/mob/living/simple_animal/retaliate/awoo{name = "Dungeon-y The Magical Awoo"},/turf/simulated/floor/cult,/area/asteroid/dungeon)
-"d" = (/turf/simulated/floor/cult,/area/asteroid/dungeon)
+"d" = (/turf/simulated/floor,/area/asteroid/dungeon)
 
 (1,1,1) = {"
 aaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
