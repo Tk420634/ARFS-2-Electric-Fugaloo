@@ -319,7 +319,6 @@
 		msg += "<span class='warning'>[T.He] [T.is] on fire!.</span>\n"
 	msg += "<span class='warning'>"
 
-	/*
 	if(nutrition < 100)
 		msg += "[T.He] [T.is] severely malnourished.\n"
 	else if(nutrition >= 500)
@@ -327,7 +326,6 @@
 			msg += "[T.He] [T.is] plump and delicious looking - Like a fat little piggy. A tasty piggy.\n"
 		else*/
 		msg += "[T.He] [T.is] quite chubby.\n"
-	*/
 
 	msg += "</span>"
 
