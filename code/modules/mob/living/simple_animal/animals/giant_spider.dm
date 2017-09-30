@@ -13,8 +13,8 @@
 	icon_dead = "guard_dead"
 
 	faction = "spiders"
-	maxHealth = 200
-	health = 200
+	maxHealth = 120
+	health = 120
 	pass_flags = PASSTABLE
 	move_to_delay = 6
 	speed = 3
@@ -68,8 +68,8 @@
 	icon_living = "hunter"
 	icon_dead = "hunter_dead"
 
-	maxHealth = 120
-	health = 120
+	maxHealth = 80
+	health = 80
 	move_to_delay = 4
 
 	melee_damage_lower = 10

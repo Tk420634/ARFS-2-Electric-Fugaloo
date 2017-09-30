@@ -1,8 +1,7 @@
 /mob/living
 	var/habit_selected
-	var/list/habits = list()		// List of vore containers inside a mob
+	var/list/habits = list()		// List of habits for a mob
 	var/selected
-
 
 #define HABITS_MAX 20
 #define HABITS_NAME_MIN 2
@@ -168,5 +167,3 @@
 
 	//Refresh when interacted with, returning 1 makes habit_look.Topic update
 	return 1
-
-

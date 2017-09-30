@@ -4,11 +4,7 @@
 
 var/global/list/ear_styles_list = list()	// Stores /datum/sprite_accessory/ears indexed by type
 var/global/list/tail_styles_list = list()	// Stores /datum/sprite_accessory/tail indexed by type
-var/global/list/negative_traits = list()	// Negative custom species traits, indexed by path
-var/global/list/neutral_traits = list()		// Neutral custom species traits, indexed by path
-var/global/list/positive_traits = list()	// Positive custom species traits, indexed by path
-var/global/list/traits_costs = list()		// Just path = cost list, saves time in char setup
-var/global/list/all_traits = list()			// All of 'em at once (same instances)
+var/global/list/wing_styles_list = list()	// Stores /datum/sprite_accessory/wing indexed by type
 var/global/list/body_breast_list = list()	// Stores /datum/sprite_accessory/breasts indexed by type
 var/global/list/body_dicks_list = list()	// Stores /datum/sprite_accessory/dicks indexed by type
 var/global/list/body_vaginas_list = list()	// Stores /datum/sprite_accessory/vaginas indexed by type
@@ -42,7 +38,7 @@ var/global/list/important_items = list(
 		/obj/item/blueprints,
 		/obj/item/clothing/head/helmet/space,
 		/obj/item/weapon/disk/nuclear)
-
+/*
 var/global/list/digestion_sounds = list(
 		'sound/vore/digest1.ogg',
 		'sound/vore/digest2.ogg',
@@ -88,7 +84,7 @@ var/global/list/struggle_sounds = list(
 		"Squish2" = 'sound/vore/squish2.ogg',
 		"Squish3" = 'sound/vore/squish3.ogg',
 		"Squish4" = 'sound/vore/squish4.ogg')
-
+*/
 
 var/global/list/global_egg_types = list(
 		"Unathi" 		= UNATHI_EGG,
