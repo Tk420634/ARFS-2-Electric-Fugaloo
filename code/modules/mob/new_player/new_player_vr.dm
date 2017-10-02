@@ -3,12 +3,12 @@
 
 // ARFS Edit - Don't want no OOC nots, plus custom species have been disabled.
 
-/*
+
 	//No OOC notes
 	if (config.allow_Metadata && client && client.prefs && (isnull(client.prefs.metadata) || length(client.prefs.metadata) < 15))
 		src << "<span class='warning'>Please set informative OOC notes related to ERP preferences. Set them using the 'OOC Notes' button on the 'General' tab in character setup.</span>"
 		pass = FALSE
-
+/*
 	//Custom species checks
 	if (client && client.prefs && client.prefs.species == "Custom Species")
 
