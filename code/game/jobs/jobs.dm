@@ -101,7 +101,6 @@ var/list/civilian_positions = list(
 	"Chef",
 	"Janitor",
 	"Librarian",
-	"Lawyer",
 	"Chaplain",
 	"Assistant"
 )
@@ -111,7 +110,8 @@ var/list/security_positions = list(
 	"Head of Security",
 	"Warden",
 	"Detective",
-	"Security Officer"
+	"Security Officer",
+	"Lawyer"
 )
 
 
