@@ -981,3 +981,119 @@
 
 /obj/item/projectile/bullet/pistol/mild //for the .454 Casull
 	damage = 50
+
+//////23mm Shotgun Carbine Memes//////
+
+///Projectiles///
+
+//lethal buckshot//
+
+/obj/item/projectile/bullet/pellet/shotgun/ks23
+	name = "heavy shrapnel"
+	damage = 15
+	pellets = 6
+	range_step = 0.8		//If I understand the code enough, this gives it a range of 5 tiles or so
+	spread_step = 10
+
+//non-lethal rubbershot//
+
+/obj/item/projectile/bullet/pellet/shotgun/ks23/rubber
+	name = "rubber pellet"
+	damage = 2.5		//So you can't just keep shooting at your victim at pointblank to keep them down
+	agony = 15		//RIOT GUN MEMES
+	embed_chance = 0		//DOCTOR A RUBBER BALL IS STUCK IN MY SPLEEN
+	sharp = 0		//OH GOD THESE RUBBER BALLS ARE SHARPER THAN KITCHEN KNIVES
+	eyeblur = 2
+	check_armour = "melee"
+
+//sharp memes//
+
+/obj/item/projectile/bullet/pellet/shotgun/ks23/knife
+	name = "knives"
+	damage = 0.1		//So you can keep maiming your victim
+	embed_chance = 75		//So you can turn your victim into a hedgehog
+	sharp = 1
+	edge = 1			//knives have this
+	pellets = 50		//all the better
+	penetrating = 25	//skreeeeee
+	armor_penetration = 100
+	range_step = 2
+	spread_step = 8
+	throwforce = 20
+	stun = 3
+	weaken = 3
+	paralyze = 3
+	irradiate = 10
+	stutter = 5
+	eyeblur = 3
+	drowsy = 3
+	agony = 9999
+	icon = 'icons/obj/gun_arfs.dmi'
+	icon_state = "knifejectile"
+
+//non-lethal flashbang//
+
+/obj/item/projectile/energy/flash/ks23/
+	name = "23mm flashbang"
+	flash_range = 3
+	brightness = 20
+	flash_strength = 30
+
+//non-lethal tear gas//
+
+//halp how to code
+
+//Anti-Materiel Slugs//
+
+/obj/item/projectile/bullet/shotgun/ks23
+	name = "23mm slug"
+	damage = 80
+	stun = 3
+	weaken = 3
+	penetrating = 5
+	armor_penetration = 80
+	kill_count = 25
+
+
+///Bullet Casings///
+
+/obj/item/ammo_casing/shotgun/ks23
+	name = "23mm shell (shrapnelshot)"
+	desc = "A 23mm shell."
+	icon = 'icons/obj/gun_arfs.dmi'
+	icon_state = "kshell"
+	projectile_type = /obj/item/projectile/bullet/pellet/shotgun/ks23
+	matter = list(DEFAULT_WALL_MATERIAL = 360)
+
+/obj/item/ammo_casing/shotgun/ks23/rubber
+	name = "23mm shell (non-lethal rubbershot)"
+	desc = "A 23mm shell."
+	projectile_type = /obj/item/projectile/bullet/pellet/shotgun/ks23/rubber
+	icon_state = "knlshell"
+
+/obj/item/ammo_casing/shotgun/ks23/flash
+	name = "23mm shell (non-lethal flashbang)"
+	desc = "A 23mm shell."
+	projectile_type = /obj/item/projectile/energy/flash/ks23/
+	icon_state = "knlshell"
+
+/obj/item/ammo_casing/shotgun/ks23/slug
+	name = "23mm shell (Anti Materiel Slug)"
+	desc = "A 23mm shell."
+	projectile_type = /obj/item/projectile/bullet/shotgun/ks23
+
+/obj/item/ammo_casing/shotgun/ks23/knife
+	name = "23mm shell (Bluespace Knife-matter Launcher)"
+	desc = "A 23mm shell."
+	projectile_type = /obj/item/projectile/bullet/pellet/shotgun/ks23/knife
+
+///The gun itself///
+
+/obj/item/weapon/gun/projectile/shotgun/pump/combat/ks23
+	name = "23mm shotgun"
+	desc = "A massive shotgun (technically a carbine) from an era long gone, the KS-23 is made from rejected 23mm cannon parts, unable to fufill their original purpose but capable of firing more diverse 'shotgun' shells."
+	icon_state = "ks23"
+	icon = 'icons/obj/gun_arfs.dmi'
+	item_state = "cshotgun"
+	max_shells = 3 //3+1
+	ammo_type = /obj/item/ammo_casing/shotgun/ks23
