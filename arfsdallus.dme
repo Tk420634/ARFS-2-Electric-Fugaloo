@@ -41,6 +41,7 @@
 #include "code\__defines\mobs.dm"
 #include "code\__defines\planets.dm"
 #include "code\__defines\process_scheduler.dm"
+#include "code\__defines\qdel.dm"
 #include "code\__defines\research.dm"
 #include "code\__defines\roguemining_vr.dm"
 #include "code\__defines\species_languages.dm"

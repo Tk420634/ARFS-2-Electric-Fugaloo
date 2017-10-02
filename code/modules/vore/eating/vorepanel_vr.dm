@@ -368,10 +368,10 @@
 							B.internal_contents += tgt
 
 							tgt << "<span class='warning'>You're squished from [user]'s [selected] to their [B]!</span>"
-
+/*
 						for(var/mob/hearer in range(1,user))
 							hearer << sound('sound/vore/squish2.ogg',volume=80)
-
+*/
 		var/atom/movable/tgt = locate(href_list["insidepick"])
 		if(!(tgt in selected.internal_contents)) //Old menu, needs updating because they aren't really there.
 			return 1 //Forces update
@@ -538,17 +538,6 @@
 			return 0
 
 		selected.vore_verb = new_verb
-
-	if(href_list["b_sound"])
-		var/choice = input(user,"Currently set to [selected.vore_sound]","Select Sound") in vore_sounds + "Cancel - No Changes"
-
-		if(choice == "Cancel")
-			return 0
-
-		selected.vore_sound = vore_sounds[choice]
-
-	if(href_list["b_soundtest"])
-		user << selected.vore_sound
 
 	if(href_list["b_tastes"])
 		selected.can_taste = !selected.can_taste

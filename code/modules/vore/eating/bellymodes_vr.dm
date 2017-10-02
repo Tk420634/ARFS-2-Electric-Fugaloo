@@ -24,12 +24,6 @@
 //////////////////////////// DM_DIGEST ////////////////////////////
 	if(digest_mode == DM_DIGEST || digest_mode == DM_DIGEST_NUMB)
 
-		if(prob(50)) //Was SO OFTEN. AAAA.
-			var/churnsound = pick(digestion_sounds)
-			for(var/mob/hearer in range(1,owner))
-				if(hearer.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-					hearer << sound(churnsound,volume=80)
-
 		for (var/mob/living/M in internal_contents)
 			//Pref protection!
 			if (!M.digestable || M.absorbed)
@@ -54,10 +48,7 @@
 				M << "<span class='notice'>" + digest_alert_prey + "</span>"
 
 				owner.nutrition += 20 // so eating dead mobs gives you *something*.
-				var/deathsound = pick(death_sounds)
-				for(var/mob/hearer in range(1,owner))
-					if(hearer.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-						hearer << deathsound
+
 				digestion_death(M)
 				owner.update_icons()
 				continue
@@ -85,14 +76,6 @@
 	if(digest_mode == DM_ABSORB)
 
 		for (var/mob/living/M in internal_contents)
-
-			if(prob(10)) //Less often than gurgles. People might leave this on forever.
-				var/absorbsound = pick(digestion_sounds)
-				if(M.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-					M << sound(absorbsound,volume=80)
-				if(owner.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-					owner << sound(absorbsound,volume=80)
-
 			if(M.absorbed)
 				continue
 
@@ -123,13 +106,6 @@
 	if(digest_mode == DM_DRAIN)
 
 		for (var/mob/living/M in internal_contents)
-
-			if(prob(10)) //Less often than gurgles. People might leave this on forever.
-				if(M.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-					var/drainsound = pick(digestion_sounds)
-					M << sound(drainsound,volume=80)
-					owner << sound(drainsound,volume=80)
-
 			if(M.nutrition >= 100) //Drain them until there's no nutrients left.
 				var/oldnutrition = (M.nutrition * 0.05)
 				M.nutrition = (M.nutrition * 0.95)
@@ -139,12 +115,6 @@
 
 ///////////////////////////// DM_HEAL /////////////////////////////
 	if(digest_mode == DM_HEAL)
-		if(prob(50)) //Wet heals!
-			var/healsound = pick(digestion_sounds)
-			for(var/mob/hearer in range(1,owner))
-				if(hearer.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-					hearer << sound(healsound,volume=80)
-
 		for (var/mob/living/M in internal_contents)
 			if(M.stat != DEAD)
 				if(owner.nutrition > 90 && (M.health < M.maxHealth))

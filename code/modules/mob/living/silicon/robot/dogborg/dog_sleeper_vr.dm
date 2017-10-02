@@ -351,7 +351,7 @@
 				hound << "<span class='notice'>You feel your belly slowly churn around [T], breaking them down into a soft slurry to be used as power for your systems.</span>"
 				T << "<span class='notice'>You feel [hound]'s belly slowly churn around your form, breaking you down into a soft slurry to be used as power for [hound]'s systems.</span>"
 				src.drain(-30000) //Fueeeeellll
-				var/deathsound = pick(
+				/*var/deathsound = pick(
 					'sound/vore/death1.ogg',
 					'sound/vore/death2.ogg',
 					'sound/vore/death3.ogg',
@@ -366,6 +366,7 @@
 					hearer << deathsound
 				T << deathsound
 				//Spill(T) //TODOPOLARIS
+				*/
 				qdel(T)
 				src.update_patient()
 
