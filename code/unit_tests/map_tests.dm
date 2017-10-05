@@ -112,13 +112,18 @@
 
 	var/active_edges = air_master.active_edges.len
 
-	for(var/turf/T in active_edges)
-		var/bad_msg = "--------------- [T.name] \[[T.x] / [T.y] / [T.z]\]"
-		log_unit_test("[bad_msg] is an active turf at round start.")
-
 	if(active_edges)
+		for(var/turf/simulated/T in active_edges)
+			var/bad_msg = "--------------- [T.name] \[[T.x] / [T.y] / [T.z]\]"
+			log_unit_test("[bad_msg] is an active turf at round start.")
+
 		fail("Maps contained [active_edges] active edges at round-start.")
 	else
 		pass("No active edges.")
 
 	return 1
+
+/*
+		for(var/turf/simulated/T in active_turfs)
+			active_turfs_startlist += text("[T.x], [T.y], [T.z]\n")
+*/
