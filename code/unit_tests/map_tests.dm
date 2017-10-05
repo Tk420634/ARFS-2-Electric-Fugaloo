@@ -111,8 +111,13 @@
 /datum/unit_test/active_edges/start_test()
 
 	var/active_edges = air_master.active_edges.len
+	var/turf/i = null
+
 
 	if(active_edges)
+		for(i in active_edges)
+			var/bad_msg = "--------------- [i.name] \[[i.x] / [i.y] / [i.z]\]"
+			log_unit_test("[bad_msg] is an active turf at round start.")
 		fail("Maps contained [active_edges] active edges at round-start.")
 	else
 		pass("No active edges.")
