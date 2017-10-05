@@ -76,6 +76,7 @@ Class Procs:
 /datum/controller/air_system/var/list/active_fire_zones = list()
 /datum/controller/air_system/var/list/active_hotspots = list()
 /datum/controller/air_system/var/list/active_edges = list()
+/datum/controller/air_system/var/list/active_edges_list = list()
 
 /datum/controller/air_system/var/active_zones = 0
 
