@@ -28,6 +28,10 @@
 
 // CREWQUARTERS/DORM
 
+/area/crew_quarters
+	flags = RAD_SHIELDED
+	turf_initializer = new /datum/turf_initializer/holodorm()
+
 /area/crew_quarters/sauna
 	name = "\improper Sauna"
 	icon_state = "recreation_area"
@@ -47,6 +51,10 @@
 /area/crew_quarters/sleep/Dorm_7/holo
 	name = "\improper Dorm 7 Holodeck"
 	icon_state = "dk_yellow"
+
+/area/holodeck/holodorm
+	flags = RAD_SHIELDED
+	turf_initializer = new /datum/turf_initializer/holodorm()
 
 /area/holodeck/holodorm/source_basic
 	name = "\improper Holodeck Source"
