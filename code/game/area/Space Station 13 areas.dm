@@ -1171,7 +1171,6 @@ area/space/atmosalert()
 	name = "\improper Dormitories"
 	icon_state = "Sleep"
 	flags = RAD_SHIELDED
-	turf_initializer = new /datum/turf_initializer/holodorm()
 
 /area/crew_quarters/toilet
 	name = "\improper Dormitory Toilets"
