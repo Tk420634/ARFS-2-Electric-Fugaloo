@@ -173,6 +173,13 @@
 		if((0 < beard) && (beard <= facial_hair_styles_list.len))
 			H.f_style = facial_hair_styles_list[beard]
 
+		//Wing - Jonathan
+ 		var/wing = dna.GetUIValueRange(DNA_UI_WING_STYLE, wing_styles_list.len + 1) - 1
+ 		if(wing <= 1)
+ 			H.wing_style = null
+ 		else if((0 < wing) && (wing <= wing_styles_list.len))
+ 			H.wing_style = wing_styles_list[wing_styles_list[wing]]
+
 		// VORE StationEdit Start
 
 		//Ears

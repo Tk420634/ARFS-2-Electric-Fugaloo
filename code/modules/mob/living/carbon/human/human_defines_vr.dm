@@ -12,4 +12,6 @@
 	var/b_genital = 179
 
 	var/wagging = 0 //UGH.
+	var/flapping = 0
+
 	var/vantag_pref = VANTAG_NONE //What's my status?
