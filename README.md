@@ -1,13 +1,13 @@
-# vorestation
+# A.R.F.S. Dallus
 
 [Forums](http://forum.vore-station.net/) - [Wiki](http://wiki.vore-station.net/)
 
-VOREStation is a fork of the Polaris code branch, itself a fork of the Baystation12 code branch, for the game Spacestation13.
+ARFS Dallus is a fork of the Vorestation Polaris code branch, itself a fork of the Baystation12 code branch, for the game Spacestation13.
 
 ---
 
 ### LICENSE
-VOREStation is licensed under the GNU Affero General Public License version 3, which can be found in full in LICENSE-AGPL3.txt.
+ARFS is licensed under the GNU Affero General Public License version 3, which can be found in full in LICENSE-AGPL3.txt.
 
 Commits with a git authorship date prior to `1420675200 +0000` (2015/01/08 00:00) are licensed under the GNU General Public License version 3, which can be found in full in LICENSE-GPL3.txt.
 
