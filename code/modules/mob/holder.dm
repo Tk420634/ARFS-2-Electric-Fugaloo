@@ -164,7 +164,7 @@ var/list/holder_mob_icon_cache = list()
 
 				// Generate individual icons.
 				var/icon/mob_icon = icon(icon, "[species_name]_holder_[cache_entry]_base")
-				mob_icon.Blend(skin_colour, ICON_ADD)
+				mob_icon.Blend(skin_colour, ICON_MULTIPLY)
 				var/icon/hair_icon = icon(icon, "[species_name]_holder_[cache_entry]_hair")
 				hair_icon.Blend(hair_colour, ICON_ADD)
 				var/icon/eyes_icon = icon(icon, "[species_name]_holder_[cache_entry]_eyes")

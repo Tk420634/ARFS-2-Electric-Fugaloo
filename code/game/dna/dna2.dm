@@ -39,17 +39,26 @@
 #define DNA_UI_TAIL_R      20
 #define DNA_UI_TAIL_G      21
 #define DNA_UI_TAIL_B      22
-#define DNA_UI_BREAST_TYPE 23
-#define DNA_UI_PENIS_TYPE  24
-#define DNA_UI_VAGINA_TYPE 25
-#define DNA_UI_GENITAL_R   26
-#define DNA_UI_GENITAL_G   27
-#define DNA_UI_GENITAL_B   28
-#define DNA_UI_WING_STYLE  30
-#define DNA_UI_WING_R	   31
-#define DNA_UI_WING_G	   32
-#define DNA_UI_WING_B	   33
-#define DNA_UI_LENGTH      33 // Update this when you add something, or you WILL break shit.
+#define DNA_UI_TAIL2_R     23
+#define DNA_UI_TAIL2_G     24
+#define DNA_UI_TAIL2_B     25
+#define DNA_UI_BREAST_TYPE 26
+#define DNA_UI_PENIS_TYPE  27
+#define DNA_UI_VAGINA_TYPE 28
+#define DNA_UI_GENITAL_R   29
+#define DNA_UI_GENITAL_G   30
+#define DNA_UI_GENITAL_B   31
+#define DNA_UI_EARS_R      32
+#define DNA_UI_EARS_G      33
+#define DNA_UI_EARS_B      34
+#define DNA_UI_EARS2_R     35
+#define DNA_UI_EARS2_G     36
+#define DNA_UI_EARS2_B     37
+#define DNA_UI_WING_STYLE  38
+#define DNA_UI_WING_R	   39
+#define DNA_UI_WING_G	   40
+#define DNA_UI_WING_B	   41
+#define DNA_UI_LENGTH      42 // Update this when you add something, or you WILL break shit.
 
 #define DNA_SE_LENGTH 27
 // For later:
@@ -203,6 +212,18 @@ var/global/list/datum/dna/gene/dna_genes[0]
 	SetUIValueRange(DNA_UI_TAIL_R,    character.r_tail,    255,    1)
 	SetUIValueRange(DNA_UI_TAIL_G,    character.g_tail,    255,    1)
 	SetUIValueRange(DNA_UI_TAIL_B,    character.b_tail,    255,    1)
+
+	SetUIValueRange(DNA_UI_TAIL2_R,   character.r_tail2,   255,    1)
+	SetUIValueRange(DNA_UI_TAIL2_G,   character.g_tail2,   255,    1)
+	SetUIValueRange(DNA_UI_TAIL2_B,   character.b_tail2,   255,    1)
+
+	SetUIValueRange(DNA_UI_EARS_R,    character.r_ears,    255,    1)
+	SetUIValueRange(DNA_UI_EARS_G,    character.g_ears,    255,    1)
+	SetUIValueRange(DNA_UI_EARS_B,    character.b_ears,    255,    1)
+
+	SetUIValueRange(DNA_UI_EARS2_R,   character.r_ears2,   255,    1)
+	SetUIValueRange(DNA_UI_EARS2_G,   character.g_ears2,   255,    1)
+	SetUIValueRange(DNA_UI_EARS2_B,   character.b_ears2,   255,    1)
 
 	// VORE Station Edit End
 
