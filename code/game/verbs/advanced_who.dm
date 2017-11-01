@@ -2,7 +2,8 @@
 /client/verb/who_advanced()
 	set name = "Advanced Who"
 	set category = "OOC"
-
+	set hidden = 1
+	return
 	var/msg = "<b>Current Players:</b>\n"
 
 	var/list/Lines = list()
