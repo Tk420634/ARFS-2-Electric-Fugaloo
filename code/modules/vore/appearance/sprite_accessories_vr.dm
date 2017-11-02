@@ -77,6 +77,8 @@
 	name = "bee antennae"
 	desc = ""
 	icon_state = "bee"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/antennae
 	name = "antennae, colorable"
@@ -125,6 +127,7 @@
 	name = "Sergal ears, colorable"
 	icon_state = "serg_plain_s"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/mousehc
 	name = "mouse, colorable"
@@ -151,6 +154,7 @@
 	desc = ""
 	icon_state = "bear"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/squirrelhc
 	name = "squirrel, colorable"
@@ -467,6 +471,7 @@
 	name = "moth antenna and wings"
 	desc = ""
 	icon_state = "moth_full"
+	
 
 /datum/sprite_accessory/tail/succubus_purple
 	name = "succubus, purple (+wings)"
@@ -603,6 +608,8 @@
 	name = "tritail kitsune tails"
 	desc = ""
 	icon_state = "rosey"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/scree
 	name = "green taj tail (+wings)"
@@ -637,6 +644,7 @@
 	desc = ""
 	icon_state = "ringtail"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/holly
 	name = "tigress tail (Holly)"
@@ -656,6 +664,7 @@
 	icon_state = "curltail"
 	ani_state = "curltail_w"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/shorttail
 	name = "shorttail (vwag)"
@@ -663,6 +672,7 @@
 	icon_state = "straighttail"
 	ani_state = "straighttail_w"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/tiger_new
 	name = "tiger tail (vwag)"
@@ -670,6 +680,7 @@
 	icon_state = "tigertail"
 	ani_state = "tigertail_w"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/vulp_new
 	name = "new vulp tail (vwag)"
@@ -677,6 +688,7 @@
 	icon_state = "vulptail"
 	ani_state = "vulptail_w"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 //For all species tails. Includes haircolored tails.
 /datum/sprite_accessory/tail/special
